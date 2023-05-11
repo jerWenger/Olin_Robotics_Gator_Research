@@ -1,0 +1,13 @@
+package.xml
+setup.cfg
+setup.py
+look_for_person/__init__.py
+look_for_person/parse_scan.py
+look_for_person.egg-info/PKG-INFO
+look_for_person.egg-info/SOURCES.txt
+look_for_person.egg-info/dependency_links.txt
+look_for_person.egg-info/entry_points.txt
+look_for_person.egg-info/requires.txt
+look_for_person.egg-info/top_level.txt
+look_for_person.egg-info/zip-safe
+resource/look_for_person

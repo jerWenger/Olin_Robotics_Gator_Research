@@ -1,0 +1,15 @@
+/home/hvakil/ros2_ws/install/tractor_writer/share/ament_index/resource_index/package_run_dependencies/tractor_writer
+/home/hvakil/ros2_ws/install/tractor_writer/share/ament_index/resource_index/parent_prefix_path/tractor_writer
+/home/hvakil/ros2_ws/install/tractor_writer/share/tractor_writer/environment/ament_prefix_path.sh
+/home/hvakil/ros2_ws/install/tractor_writer/share/tractor_writer/environment/ament_prefix_path.dsv
+/home/hvakil/ros2_ws/install/tractor_writer/share/tractor_writer/environment/path.sh
+/home/hvakil/ros2_ws/install/tractor_writer/share/tractor_writer/environment/path.dsv
+/home/hvakil/ros2_ws/install/tractor_writer/share/tractor_writer/local_setup.bash
+/home/hvakil/ros2_ws/install/tractor_writer/share/tractor_writer/local_setup.sh
+/home/hvakil/ros2_ws/install/tractor_writer/share/tractor_writer/local_setup.zsh
+/home/hvakil/ros2_ws/install/tractor_writer/share/tractor_writer/local_setup.dsv
+/home/hvakil/ros2_ws/install/tractor_writer/share/tractor_writer/package.dsv
+/home/hvakil/ros2_ws/install/tractor_writer/share/ament_index/resource_index/packages/tractor_writer
+/home/hvakil/ros2_ws/install/tractor_writer/share/tractor_writer/cmake/tractor_writerConfig.cmake
+/home/hvakil/ros2_ws/install/tractor_writer/share/tractor_writer/cmake/tractor_writerConfig-version.cmake
+/home/hvakil/ros2_ws/install/tractor_writer/share/tractor_writer/package.xml

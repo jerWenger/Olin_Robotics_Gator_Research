@@ -1,0 +1,2 @@
+Invoking command in '/home/hvakil/ros2_ws/build/fix_scan': /usr/bin/cmake /home/hvakil/ros2_ws/src/neato_packages/fix_scan -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/hvakil/ros2_ws/install/fix_scan
+Invoked command in '/home/hvakil/ros2_ws/build/fix_scan' returned '1': /usr/bin/cmake /home/hvakil/ros2_ws/src/neato_packages/fix_scan -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/hvakil/ros2_ws/install/fix_scan

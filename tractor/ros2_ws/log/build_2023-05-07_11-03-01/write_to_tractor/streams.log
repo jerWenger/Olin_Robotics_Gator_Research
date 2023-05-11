@@ -1,0 +1,50 @@
+[1.644s] Invoking command in '/home/hvakil/ros2_ws/build/write_to_tractor': PYTHONPATH=/home/hvakil/ros2_ws/build/write_to_tractor/prefix_override:/home/hvakil/ros2_ws/install/write_to_tractor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/hvakil/ros2_ws/build/write_to_tractor/build
+[2.077s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[2.077s]   warnings.warn(
+[2.128s] running develop
+[2.128s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[2.128s]   warnings.warn(
+[2.130s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.130s]   warnings.warn(
+[2.225s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.16.0-unknown is an invalid version and will not be supported in a future release
+[2.225s]   warnings.warn(
+[2.225s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 0.1.43ubuntu1 is an invalid version and will not be supported in a future release
+[2.225s]   warnings.warn(
+[2.226s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.1build1 is an invalid version and will not be supported in a future release
+[2.226s]   warnings.warn(
+[2.379s] Removing /home/hvakil/ros2_ws/install/write_to_tractor/lib/python3.10/site-packages/write-to-tractor.egg-link (link to .)
+[2.402s] Invoked command in '/home/hvakil/ros2_ws/build/write_to_tractor' returned '0': PYTHONPATH=/home/hvakil/ros2_ws/build/write_to_tractor/prefix_override:/home/hvakil/ros2_ws/install/write_to_tractor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/hvakil/ros2_ws/build/write_to_tractor/build
+[2.403s] Invoking command in '/home/hvakil/ros2_ws/src/tractor/write_to_tractor': PYTHONPATH=/home/hvakil/ros2_ws/build/write_to_tractor/prefix_override:/home/hvakil/ros2_ws/install/write_to_tractor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/write_to_tractor build --build-base /home/hvakil/ros2_ws/build/write_to_tractor/build install --record /home/hvakil/ros2_ws/build/write_to_tractor/install.log --install-scripts $base/lib/write_to_tractor --single-version-externally-managed
+[2.822s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[2.822s]   warnings.warn(
+[2.830s] running egg_info
+[2.831s] writing ../../../build/write_to_tractor/write_to_tractor.egg-info/PKG-INFO
+[2.832s] writing dependency_links to ../../../build/write_to_tractor/write_to_tractor.egg-info/dependency_links.txt
+[2.832s] writing entry points to ../../../build/write_to_tractor/write_to_tractor.egg-info/entry_points.txt
+[2.832s] writing requirements to ../../../build/write_to_tractor/write_to_tractor.egg-info/requires.txt
+[2.832s] writing top-level names to ../../../build/write_to_tractor/write_to_tractor.egg-info/top_level.txt
+[2.837s] reading manifest file '../../../build/write_to_tractor/write_to_tractor.egg-info/SOURCES.txt'
+[2.838s] writing manifest file '../../../build/write_to_tractor/write_to_tractor.egg-info/SOURCES.txt'
+[2.838s] running build
+[2.838s] running build_py
+[2.838s] creating /home/hvakil/ros2_ws/build/write_to_tractor/build
+[2.839s] creating /home/hvakil/ros2_ws/build/write_to_tractor/build/lib
+[2.839s] creating /home/hvakil/ros2_ws/build/write_to_tractor/build/lib/write_to_tractor
+[2.839s] copying write_to_tractor/__init__.py -> /home/hvakil/ros2_ws/build/write_to_tractor/build/lib/write_to_tractor
+[2.839s] copying write_to_tractor/tractor_writer.py -> /home/hvakil/ros2_ws/build/write_to_tractor/build/lib/write_to_tractor
+[2.839s] running install
+[2.839s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.839s]   warnings.warn(
+[2.839s] running install_lib
+[2.840s] creating /home/hvakil/ros2_ws/install/write_to_tractor/lib/python3.10/site-packages/write_to_tractor
+[2.840s] copying /home/hvakil/ros2_ws/build/write_to_tractor/build/lib/write_to_tractor/__init__.py -> /home/hvakil/ros2_ws/install/write_to_tractor/lib/python3.10/site-packages/write_to_tractor
+[2.840s] copying /home/hvakil/ros2_ws/build/write_to_tractor/build/lib/write_to_tractor/tractor_writer.py -> /home/hvakil/ros2_ws/install/write_to_tractor/lib/python3.10/site-packages/write_to_tractor
+[2.842s] byte-compiling /home/hvakil/ros2_ws/install/write_to_tractor/lib/python3.10/site-packages/write_to_tractor/__init__.py to __init__.cpython-310.pyc
+[2.842s] byte-compiling /home/hvakil/ros2_ws/install/write_to_tractor/lib/python3.10/site-packages/write_to_tractor/tractor_writer.py to tractor_writer.cpython-310.pyc
+[2.843s] running install_data
+[2.843s] running install_egg_info
+[2.846s] Copying ../../../build/write_to_tractor/write_to_tractor.egg-info to /home/hvakil/ros2_ws/install/write_to_tractor/lib/python3.10/site-packages/write_to_tractor-0.0.0-py3.10.egg-info
+[2.847s] running install_scripts
+[2.883s] Installing tractor_writer script to /home/hvakil/ros2_ws/install/write_to_tractor/lib/write_to_tractor
+[2.883s] writing list of installed files to '/home/hvakil/ros2_ws/build/write_to_tractor/install.log'
+[2.905s] Invoked command in '/home/hvakil/ros2_ws/src/tractor/write_to_tractor' returned '0': PYTHONPATH=/home/hvakil/ros2_ws/build/write_to_tractor/prefix_override:/home/hvakil/ros2_ws/install/write_to_tractor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/write_to_tractor build --build-base /home/hvakil/ros2_ws/build/write_to_tractor/build install --record /home/hvakil/ros2_ws/build/write_to_tractor/install.log --install-scripts $base/lib/write_to_tractor --single-version-externally-managed

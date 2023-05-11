@@ -1,0 +1,6 @@
+[console_scripts]
+gps_server = arkit_data_streamer.gps_server:main
+image_server = arkit_data_streamer.image_server:main
+odometry_recorder = arkit_data_streamer.odometry_recorder:main
+pose_server = arkit_data_streamer.pose_server:main
+

@@ -1,0 +1,14 @@
+package.xml
+setup.cfg
+setup.py
+launch/launch_trakbot.py
+resource/vel_calculator
+vel_calculator/__init__.py
+vel_calculator/vel_calculator.py
+vel_calculator.egg-info/PKG-INFO
+vel_calculator.egg-info/SOURCES.txt
+vel_calculator.egg-info/dependency_links.txt
+vel_calculator.egg-info/entry_points.txt
+vel_calculator.egg-info/requires.txt
+vel_calculator.egg-info/top_level.txt
+vel_calculator.egg-info/zip-safe

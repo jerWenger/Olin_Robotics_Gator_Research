@@ -1,0 +1,14 @@
+package.xml
+setup.cfg
+setup.py
+resource/trail_finding
+trail_finding/__init__.py
+trail_finding/find_trail.py
+trail_finding/model_paper.py
+trail_finding.egg-info/PKG-INFO
+trail_finding.egg-info/SOURCES.txt
+trail_finding.egg-info/dependency_links.txt
+trail_finding.egg-info/entry_points.txt
+trail_finding.egg-info/requires.txt
+trail_finding.egg-info/top_level.txt
+trail_finding.egg-info/zip-safe

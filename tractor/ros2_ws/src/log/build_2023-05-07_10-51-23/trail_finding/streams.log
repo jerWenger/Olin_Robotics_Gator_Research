@@ -1,0 +1,36 @@
+[4.514s] Invoking command in '/home/hvakil/ros2_ws/src/build/trail_finding': PYTHONPATH=/home/hvakil/ros2_ws/src/build/trail_finding/prefix_override:/home/hvakil/ros2_ws/src/install/trail_finding/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/hvakil/ros2_ws/src/build/trail_finding/build --no-deps install_data
+[5.506s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[5.506s]   warnings.warn(
+[5.621s] running develop
+[5.622s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[5.622s]   warnings.warn(
+[5.625s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[5.625s]   warnings.warn(
+[5.815s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.16.0-unknown is an invalid version and will not be supported in a future release
+[5.815s]   warnings.warn(
+[5.815s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 0.1.43ubuntu1 is an invalid version and will not be supported in a future release
+[5.815s]   warnings.warn(
+[5.816s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.1build1 is an invalid version and will not be supported in a future release
+[5.816s]   warnings.warn(
+[6.156s] running egg_info
+[6.156s] creating trail_finding.egg-info
+[6.156s] writing trail_finding.egg-info/PKG-INFO
+[6.156s] writing dependency_links to trail_finding.egg-info/dependency_links.txt
+[6.157s] writing entry points to trail_finding.egg-info/entry_points.txt
+[6.157s] writing requirements to trail_finding.egg-info/requires.txt
+[6.157s] writing top-level names to trail_finding.egg-info/top_level.txt
+[6.166s] writing manifest file 'trail_finding.egg-info/SOURCES.txt'
+[6.168s] reading manifest file 'trail_finding.egg-info/SOURCES.txt'
+[6.169s] writing manifest file 'trail_finding.egg-info/SOURCES.txt'
+[6.180s] running build_ext
+[6.180s] Creating /home/hvakil/ros2_ws/src/install/trail_finding/lib/python3.10/site-packages/trail-finding.egg-link (link to .)
+[6.183s] Installing find_trail script to /home/hvakil/ros2_ws/src/install/trail_finding/lib/trail_finding
+[6.184s] 
+[6.184s] Installed /home/hvakil/ros2_ws/src/build/trail_finding
+[6.184s] running install_data
+[6.185s] creating /home/hvakil/ros2_ws/src/install/trail_finding/share/ament_index
+[6.185s] creating /home/hvakil/ros2_ws/src/install/trail_finding/share/ament_index/resource_index
+[6.185s] creating /home/hvakil/ros2_ws/src/install/trail_finding/share/ament_index/resource_index/packages
+[6.185s] copying resource/trail_finding -> /home/hvakil/ros2_ws/src/install/trail_finding/share/ament_index/resource_index/packages
+[6.186s] copying package.xml -> /home/hvakil/ros2_ws/src/install/trail_finding/share/trail_finding
+[6.257s] Invoked command in '/home/hvakil/ros2_ws/src/build/trail_finding' returned '0': PYTHONPATH=/home/hvakil/ros2_ws/src/build/trail_finding/prefix_override:/home/hvakil/ros2_ws/src/install/trail_finding/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/hvakil/ros2_ws/src/build/trail_finding/build --no-deps install_data

@@ -1,0 +1,4 @@
+source;share/fix_scan/local_setup.bash
+source;share/fix_scan/local_setup.dsv
+source;share/fix_scan/local_setup.sh
+source;share/fix_scan/local_setup.zsh

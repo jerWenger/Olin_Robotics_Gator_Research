@@ -1,0 +1,3 @@
+[console_scripts]
+TreadWriter = arduino_ros.TreadWriter:main
+

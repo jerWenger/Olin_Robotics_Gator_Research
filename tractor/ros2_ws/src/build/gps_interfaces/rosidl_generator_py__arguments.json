@@ -1,0 +1,24 @@
+{
+  "package_name": "gps_interfaces",
+  "output_dir": "/home/hvakil/ros2_ws/src/build/gps_interfaces/rosidl_generator_py/gps_interfaces",
+  "template_dir": "/home/hvakil/ros2_humble/install/rosidl_generator_py/share/rosidl_generator_py/cmake/../resource",
+  "idl_tuples": [
+    "/home/hvakil/ros2_ws/src/build/gps_interfaces/rosidl_adapter/gps_interfaces:msg/CoordinateStamped.idl"
+  ],
+  "target_dependencies": [
+    "/home/hvakil/ros2_humble/install/rosidl_generator_py/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py",
+    "/home/hvakil/ros2_humble/install/rosidl_generator_py/local/lib/python3.10/dist-packages/rosidl_generator_py/__init__.py",
+    "/home/hvakil/ros2_humble/install/rosidl_generator_py/local/lib/python3.10/dist-packages/rosidl_generator_py/generate_py_impl.py",
+    "/home/hvakil/ros2_humble/install/rosidl_generator_py/share/rosidl_generator_py/cmake/../resource/_action_pkg_typesupport_entry_point.c.em",
+    "/home/hvakil/ros2_humble/install/rosidl_generator_py/share/rosidl_generator_py/cmake/../resource/_action.py.em",
+    "/home/hvakil/ros2_humble/install/rosidl_generator_py/share/rosidl_generator_py/cmake/../resource/_idl_pkg_typesupport_entry_point.c.em",
+    "/home/hvakil/ros2_humble/install/rosidl_generator_py/share/rosidl_generator_py/cmake/../resource/_idl_support.c.em",
+    "/home/hvakil/ros2_humble/install/rosidl_generator_py/share/rosidl_generator_py/cmake/../resource/_idl.py.em",
+    "/home/hvakil/ros2_humble/install/rosidl_generator_py/share/rosidl_generator_py/cmake/../resource/_msg_pkg_typesupport_entry_point.c.em",
+    "/home/hvakil/ros2_humble/install/rosidl_generator_py/share/rosidl_generator_py/cmake/../resource/_msg_support.c.em",
+    "/home/hvakil/ros2_humble/install/rosidl_generator_py/share/rosidl_generator_py/cmake/../resource/_msg.py.em",
+    "/home/hvakil/ros2_humble/install/rosidl_generator_py/share/rosidl_generator_py/cmake/../resource/_srv_pkg_typesupport_entry_point.c.em",
+    "/home/hvakil/ros2_humble/install/rosidl_generator_py/share/rosidl_generator_py/cmake/../resource/_srv.py.em",
+    "/home/hvakil/ros2_ws/src/build/gps_interfaces/rosidl_adapter/gps_interfaces/msg/CoordinateStamped.idl"
+  ]
+}

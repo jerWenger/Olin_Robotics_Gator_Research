@@ -1,0 +1,22 @@
+running develop
+running egg_info
+creating trail_finding.egg-info
+writing trail_finding.egg-info/PKG-INFO
+writing dependency_links to trail_finding.egg-info/dependency_links.txt
+writing entry points to trail_finding.egg-info/entry_points.txt
+writing requirements to trail_finding.egg-info/requires.txt
+writing top-level names to trail_finding.egg-info/top_level.txt
+writing manifest file 'trail_finding.egg-info/SOURCES.txt'
+reading manifest file 'trail_finding.egg-info/SOURCES.txt'
+writing manifest file 'trail_finding.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/hvakil/ros2_ws/src/install/trail_finding/lib/python3.10/site-packages/trail-finding.egg-link (link to .)
+Installing find_trail script to /home/hvakil/ros2_ws/src/install/trail_finding/lib/trail_finding
+
+Installed /home/hvakil/ros2_ws/src/build/trail_finding
+running install_data
+creating /home/hvakil/ros2_ws/src/install/trail_finding/share/ament_index
+creating /home/hvakil/ros2_ws/src/install/trail_finding/share/ament_index/resource_index
+creating /home/hvakil/ros2_ws/src/install/trail_finding/share/ament_index/resource_index/packages
+copying resource/trail_finding -> /home/hvakil/ros2_ws/src/install/trail_finding/share/ament_index/resource_index/packages
+copying package.xml -> /home/hvakil/ros2_ws/src/install/trail_finding/share/trail_finding

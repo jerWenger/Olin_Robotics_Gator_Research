@@ -1,0 +1,9 @@
+source;share/trail_finding/hook/pythonpath.ps1
+source;share/trail_finding/hook/pythonpath.dsv
+source;share/trail_finding/hook/pythonpath.sh
+source;share/trail_finding/hook/ament_prefix_path.ps1
+source;share/trail_finding/hook/ament_prefix_path.dsv
+source;share/trail_finding/hook/ament_prefix_path.sh
+source;../../build/trail_finding/share/trail_finding/hook/pythonpath_develop.ps1
+source;../../build/trail_finding/share/trail_finding/hook/pythonpath_develop.dsv
+source;../../build/trail_finding/share/trail_finding/hook/pythonpath_develop.sh

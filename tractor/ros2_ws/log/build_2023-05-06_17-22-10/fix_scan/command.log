@@ -1,0 +1,3 @@
+Invoking command in '/home/hvakil/ros2_ws/build/fix_scan': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/hvakil/ros2_ws/src/neato_packages/fix_scan -DCMAKE_INSTALL_PREFIX=/home/hvakil/ros2_ws/install/fix_scan
+Invoked command in '/home/hvakil/ros2_ws/build/fix_scan' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/hvakil/ros2_ws/src/neato_packages/fix_scan -DCMAKE_INSTALL_PREFIX=/home/hvakil/ros2_ws/install/fix_scan
+Invoking command in '/home/hvakil/ros2_ws/build/fix_scan': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hvakil/ros2_ws/build/fix_scan -- -j12 -l12

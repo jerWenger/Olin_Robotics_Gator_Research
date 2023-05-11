@@ -1,0 +1,3 @@
+[console_scripts]
+parse_scan = look_for_person.parse_scan:main
+

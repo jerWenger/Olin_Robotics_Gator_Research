@@ -1,0 +1,6 @@
+{
+  "package_name": "direction_interfaces",
+  "non_idl_tuples": [
+    "/home/hvakil/ros2_ws/src/field_autonomy/direction_interfaces:msg/Direction.msg"
+  ]
+}

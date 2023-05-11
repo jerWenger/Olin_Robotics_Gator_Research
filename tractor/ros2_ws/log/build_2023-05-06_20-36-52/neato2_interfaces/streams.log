@@ -1,0 +1,17 @@
+[0.017s] Invoking command in '/home/hvakil/ros2_ws/build/neato2_interfaces': /usr/bin/cmake /home/hvakil/ros2_ws/src/neato_packages/neato2_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/hvakil/ros2_ws/install/neato2_interfaces
+[0.030s] -- Found ament_cmake: 1.3.4 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.183s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.191s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.192s] [31mCMake Error at /opt/ros/humble/share/rosidl_typesupport_c/cmake/get_used_typesupports.cmake:35 (message):
+[0.192s]   No 'rosidl_typesupport_c' found
+[0.192s] Call Stack (most recent call first):
+[0.193s]   /opt/ros/humble/share/rosidl_typesupport_c/cmake/rosidl_typesupport_c-extras.cmake:8 (get_used_typesupports)
+[0.193s]   /opt/ros/humble/share/rosidl_typesupport_c/cmake/rosidl_typesupport_cConfig.cmake:41 (include)
+[0.193s]   /opt/ros/humble/share/rosidl_default_generators/cmake/rosidl_default_generators-extras.cmake:21 (find_package)
+[0.193s]   /opt/ros/humble/share/rosidl_default_generators/cmake/rosidl_default_generatorsConfig.cmake:41 (include)
+[0.193s]   CMakeLists.txt:20 (find_package)
+[0.193s] 
+[0.193s] [0m
+[0.193s] -- Configuring incomplete, errors occurred!
+[0.193s] See also "/home/hvakil/ros2_ws/build/neato2_interfaces/CMakeFiles/CMakeOutput.log".
+[0.280s] Invoked command in '/home/hvakil/ros2_ws/build/neato2_interfaces' returned '1': /usr/bin/cmake /home/hvakil/ros2_ws/src/neato_packages/neato2_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/hvakil/ros2_ws/install/neato2_interfaces

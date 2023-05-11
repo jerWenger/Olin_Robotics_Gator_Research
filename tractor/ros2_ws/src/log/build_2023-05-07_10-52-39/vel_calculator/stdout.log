@@ -1,0 +1,15 @@
+running develop
+running egg_info
+writing vel_calculator.egg-info/PKG-INFO
+writing dependency_links to vel_calculator.egg-info/dependency_links.txt
+writing entry points to vel_calculator.egg-info/entry_points.txt
+writing requirements to vel_calculator.egg-info/requires.txt
+writing top-level names to vel_calculator.egg-info/top_level.txt
+reading manifest file 'vel_calculator.egg-info/SOURCES.txt'
+writing manifest file 'vel_calculator.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/hvakil/ros2_ws/src/install/vel_calculator/lib/python3.10/site-packages/vel-calculator.egg-link (link to .)
+Installing vel_calculator script to /home/hvakil/ros2_ws/src/install/vel_calculator/lib/vel_calculator
+
+Installed /home/hvakil/ros2_ws/src/build/vel_calculator
+running install_data

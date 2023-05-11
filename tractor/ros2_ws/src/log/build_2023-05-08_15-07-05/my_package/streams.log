@@ -1,0 +1,34 @@
+[2.285s] Invoking command in '/home/hvakil/ros2_ws/src/build/my_package': PYTHONPATH=/home/hvakil/ros2_ws/src/build/my_package/prefix_override:/home/hvakil/ros2_ws/src/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/hvakil/ros2_ws/src/build/my_package/build --no-deps install_data
+[2.806s] running develop
+[2.806s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[2.806s]   warnings.warn(
+[2.807s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.807s]   warnings.warn(
+[2.909s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.16.0-unknown is an invalid version and will not be supported in a future release
+[2.909s]   warnings.warn(
+[2.910s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 0.1.43ubuntu1 is an invalid version and will not be supported in a future release
+[2.910s]   warnings.warn(
+[2.910s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.1build1 is an invalid version and will not be supported in a future release
+[2.910s]   warnings.warn(
+[3.092s] running egg_info
+[3.093s] creating my_package.egg-info
+[3.093s] writing my_package.egg-info/PKG-INFO
+[3.093s] writing dependency_links to my_package.egg-info/dependency_links.txt
+[3.094s] writing entry points to my_package.egg-info/entry_points.txt
+[3.094s] writing requirements to my_package.egg-info/requires.txt
+[3.094s] writing top-level names to my_package.egg-info/top_level.txt
+[3.099s] writing manifest file 'my_package.egg-info/SOURCES.txt'
+[3.101s] reading manifest file 'my_package.egg-info/SOURCES.txt'
+[3.101s] writing manifest file 'my_package.egg-info/SOURCES.txt'
+[3.106s] running build_ext
+[3.106s] Creating /home/hvakil/ros2_ws/src/install/my_package/lib/python3.10/site-packages/my-package.egg-link (link to .)
+[3.107s] Installing my_node script to /home/hvakil/ros2_ws/src/install/my_package/lib/my_package
+[3.107s] 
+[3.108s] Installed /home/hvakil/ros2_ws/src/build/my_package
+[3.108s] running install_data
+[3.108s] creating /home/hvakil/ros2_ws/src/install/my_package/share/ament_index
+[3.108s] creating /home/hvakil/ros2_ws/src/install/my_package/share/ament_index/resource_index
+[3.108s] creating /home/hvakil/ros2_ws/src/install/my_package/share/ament_index/resource_index/packages
+[3.108s] copying resource/my_package -> /home/hvakil/ros2_ws/src/install/my_package/share/ament_index/resource_index/packages
+[3.108s] copying package.xml -> /home/hvakil/ros2_ws/src/install/my_package/share/my_package
+[3.139s] Invoked command in '/home/hvakil/ros2_ws/src/build/my_package' returned '0': PYTHONPATH=/home/hvakil/ros2_ws/src/build/my_package/prefix_override:/home/hvakil/ros2_ws/src/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/hvakil/ros2_ws/src/build/my_package/build --no-deps install_data

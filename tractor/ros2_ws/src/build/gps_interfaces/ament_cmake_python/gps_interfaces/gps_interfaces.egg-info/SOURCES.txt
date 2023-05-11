@@ -1,0 +1,8 @@
+setup.py
+gps_interfaces/__init__.py
+gps_interfaces.egg-info/PKG-INFO
+gps_interfaces.egg-info/SOURCES.txt
+gps_interfaces.egg-info/dependency_links.txt
+gps_interfaces.egg-info/top_level.txt
+gps_interfaces/msg/__init__.py
+gps_interfaces/msg/_coordinate_stamped.py

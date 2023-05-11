@@ -1,0 +1,32 @@
+[4.393s] Invoking command in '/home/hvakil/ros2_ws/src/build/arkit_data_streamer': PYTHONPATH=/home/hvakil/ros2_ws/src/build/arkit_data_streamer/prefix_override:/home/hvakil/ros2_ws/src/install/arkit_data_streamer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/hvakil/ros2_ws/src/build/arkit_data_streamer/build --no-deps install_data
+[5.116s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[5.116s]   warnings.warn(
+[5.193s] running develop
+[5.193s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[5.193s]   warnings.warn(
+[5.195s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[5.195s]   warnings.warn(
+[5.338s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.16.0-unknown is an invalid version and will not be supported in a future release
+[5.338s]   warnings.warn(
+[5.339s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 0.1.43ubuntu1 is an invalid version and will not be supported in a future release
+[5.339s]   warnings.warn(
+[5.339s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.1build1 is an invalid version and will not be supported in a future release
+[5.339s]   warnings.warn(
+[5.607s] running egg_info
+[5.608s] writing arkit_data_streamer.egg-info/PKG-INFO
+[5.608s] writing dependency_links to arkit_data_streamer.egg-info/dependency_links.txt
+[5.608s] writing entry points to arkit_data_streamer.egg-info/entry_points.txt
+[5.609s] writing requirements to arkit_data_streamer.egg-info/requires.txt
+[5.609s] writing top-level names to arkit_data_streamer.egg-info/top_level.txt
+[5.622s] reading manifest file 'arkit_data_streamer.egg-info/SOURCES.txt'
+[5.624s] writing manifest file 'arkit_data_streamer.egg-info/SOURCES.txt'
+[5.633s] running build_ext
+[5.633s] Creating /home/hvakil/ros2_ws/src/install/arkit_data_streamer/lib/python3.10/site-packages/arkit-data-streamer.egg-link (link to .)
+[5.635s] Installing gps_server script to /home/hvakil/ros2_ws/src/install/arkit_data_streamer/lib/arkit_data_streamer
+[5.635s] Installing image_server script to /home/hvakil/ros2_ws/src/install/arkit_data_streamer/lib/arkit_data_streamer
+[5.635s] Installing odometry_recorder script to /home/hvakil/ros2_ws/src/install/arkit_data_streamer/lib/arkit_data_streamer
+[5.636s] Installing pose_server script to /home/hvakil/ros2_ws/src/install/arkit_data_streamer/lib/arkit_data_streamer
+[5.636s] 
+[5.636s] Installed /home/hvakil/ros2_ws/src/build/arkit_data_streamer
+[5.636s] running install_data
+[5.740s] Invoked command in '/home/hvakil/ros2_ws/src/build/arkit_data_streamer' returned '0': PYTHONPATH=/home/hvakil/ros2_ws/src/build/arkit_data_streamer/prefix_override:/home/hvakil/ros2_ws/src/install/arkit_data_streamer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/hvakil/ros2_ws/src/build/arkit_data_streamer/build --no-deps install_data

@@ -1,0 +1,29 @@
+[4.239s] Invoking command in '/home/hvakil/ros2_ws/src/build/vel_calculator': PYTHONPATH=/home/hvakil/ros2_ws/src/build/vel_calculator/prefix_override:/home/hvakil/ros2_ws/src/install/vel_calculator/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/hvakil/ros2_ws/src/build/vel_calculator/build --no-deps install_data
+[4.981s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[4.981s]   warnings.warn(
+[5.059s] running develop
+[5.060s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[5.060s]   warnings.warn(
+[5.062s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[5.062s]   warnings.warn(
+[5.207s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.16.0-unknown is an invalid version and will not be supported in a future release
+[5.207s]   warnings.warn(
+[5.208s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 0.1.43ubuntu1 is an invalid version and will not be supported in a future release
+[5.208s]   warnings.warn(
+[5.208s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.1build1 is an invalid version and will not be supported in a future release
+[5.208s]   warnings.warn(
+[5.480s] running egg_info
+[5.480s] writing vel_calculator.egg-info/PKG-INFO
+[5.481s] writing dependency_links to vel_calculator.egg-info/dependency_links.txt
+[5.481s] writing entry points to vel_calculator.egg-info/entry_points.txt
+[5.481s] writing requirements to vel_calculator.egg-info/requires.txt
+[5.481s] writing top-level names to vel_calculator.egg-info/top_level.txt
+[5.494s] reading manifest file 'vel_calculator.egg-info/SOURCES.txt'
+[5.496s] writing manifest file 'vel_calculator.egg-info/SOURCES.txt'
+[5.506s] running build_ext
+[5.506s] Creating /home/hvakil/ros2_ws/src/install/vel_calculator/lib/python3.10/site-packages/vel-calculator.egg-link (link to .)
+[5.508s] Installing vel_calculator script to /home/hvakil/ros2_ws/src/install/vel_calculator/lib/vel_calculator
+[5.508s] 
+[5.508s] Installed /home/hvakil/ros2_ws/src/build/vel_calculator
+[5.509s] running install_data
+[5.586s] Invoked command in '/home/hvakil/ros2_ws/src/build/vel_calculator' returned '0': PYTHONPATH=/home/hvakil/ros2_ws/src/build/vel_calculator/prefix_override:/home/hvakil/ros2_ws/src/install/vel_calculator/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/hvakil/ros2_ws/src/build/vel_calculator/build --no-deps install_data

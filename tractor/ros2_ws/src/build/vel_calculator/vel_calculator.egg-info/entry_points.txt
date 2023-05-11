@@ -1,0 +1,3 @@
+[console_scripts]
+vel_calculator = vel_calculator.vel_calculator:main
+

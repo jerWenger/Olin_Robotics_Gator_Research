@@ -1,0 +1,7 @@
+[0.000000] (-) TimerEvent: {}
+[0.000215] (-) JobUnselected: {'identifier': 'fix_scan'}
+[0.000286] (-) JobUnselected: {'identifier': 'neato2_gazebo'}
+[0.000301] (-) JobUnselected: {'identifier': 'neato2_interfaces'}
+[0.000314] (-) JobUnselected: {'identifier': 'neato_node2'}
+[0.000325] (-) JobUnselected: {'identifier': 'write_to_tractor'}
+[0.000407] (-) EventReactorShutdown: {}

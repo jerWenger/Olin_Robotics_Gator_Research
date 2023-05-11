@@ -1,0 +1,1 @@
+/home/hvakil/ros2_ws/src/build/direction_interfaces/rosidl_typesupport_fastrtps_c/direction_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h

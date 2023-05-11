@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/hvakil/ros2_ws/build/fix_scan/fix_scan" "/home/hvakil/ros2_ws/build/fix_scan/scan_to_pc2" "TARGETS" "fix_scan" "scan_to_pc2" "DESTINATION" "lib/fix_scan")

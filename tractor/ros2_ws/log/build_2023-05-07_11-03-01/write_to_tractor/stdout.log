@@ -1,0 +1,30 @@
+running develop
+Removing /home/hvakil/ros2_ws/install/write_to_tractor/lib/python3.10/site-packages/write-to-tractor.egg-link (link to .)
+running egg_info
+writing ../../../build/write_to_tractor/write_to_tractor.egg-info/PKG-INFO
+writing dependency_links to ../../../build/write_to_tractor/write_to_tractor.egg-info/dependency_links.txt
+writing entry points to ../../../build/write_to_tractor/write_to_tractor.egg-info/entry_points.txt
+writing requirements to ../../../build/write_to_tractor/write_to_tractor.egg-info/requires.txt
+writing top-level names to ../../../build/write_to_tractor/write_to_tractor.egg-info/top_level.txt
+reading manifest file '../../../build/write_to_tractor/write_to_tractor.egg-info/SOURCES.txt'
+writing manifest file '../../../build/write_to_tractor/write_to_tractor.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/hvakil/ros2_ws/build/write_to_tractor/build
+creating /home/hvakil/ros2_ws/build/write_to_tractor/build/lib
+creating /home/hvakil/ros2_ws/build/write_to_tractor/build/lib/write_to_tractor
+copying write_to_tractor/__init__.py -> /home/hvakil/ros2_ws/build/write_to_tractor/build/lib/write_to_tractor
+copying write_to_tractor/tractor_writer.py -> /home/hvakil/ros2_ws/build/write_to_tractor/build/lib/write_to_tractor
+running install
+running install_lib
+creating /home/hvakil/ros2_ws/install/write_to_tractor/lib/python3.10/site-packages/write_to_tractor
+copying /home/hvakil/ros2_ws/build/write_to_tractor/build/lib/write_to_tractor/__init__.py -> /home/hvakil/ros2_ws/install/write_to_tractor/lib/python3.10/site-packages/write_to_tractor
+copying /home/hvakil/ros2_ws/build/write_to_tractor/build/lib/write_to_tractor/tractor_writer.py -> /home/hvakil/ros2_ws/install/write_to_tractor/lib/python3.10/site-packages/write_to_tractor
+byte-compiling /home/hvakil/ros2_ws/install/write_to_tractor/lib/python3.10/site-packages/write_to_tractor/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/hvakil/ros2_ws/install/write_to_tractor/lib/python3.10/site-packages/write_to_tractor/tractor_writer.py to tractor_writer.cpython-310.pyc
+running install_data
+running install_egg_info
+Copying ../../../build/write_to_tractor/write_to_tractor.egg-info to /home/hvakil/ros2_ws/install/write_to_tractor/lib/python3.10/site-packages/write_to_tractor-0.0.0-py3.10.egg-info
+running install_scripts
+Installing tractor_writer script to /home/hvakil/ros2_ws/install/write_to_tractor/lib/write_to_tractor
+writing list of installed files to '/home/hvakil/ros2_ws/build/write_to_tractor/install.log'

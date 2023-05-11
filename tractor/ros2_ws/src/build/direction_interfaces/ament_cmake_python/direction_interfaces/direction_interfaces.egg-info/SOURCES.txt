@@ -1,0 +1,8 @@
+setup.py
+direction_interfaces/__init__.py
+direction_interfaces.egg-info/PKG-INFO
+direction_interfaces.egg-info/SOURCES.txt
+direction_interfaces.egg-info/dependency_links.txt
+direction_interfaces.egg-info/top_level.txt
+direction_interfaces/msg/__init__.py
+direction_interfaces/msg/_direction.py

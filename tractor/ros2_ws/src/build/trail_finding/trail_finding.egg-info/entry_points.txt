@@ -1,0 +1,3 @@
+[console_scripts]
+find_trail = trail_finding.find_trail:main
+

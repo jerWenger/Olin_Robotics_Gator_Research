@@ -1,0 +1,6 @@
+{
+  "package_name": "gps_interfaces",
+  "non_idl_tuples": [
+    "/home/hvakil/ros2_ws/src/field_autonomy/gps_interfaces:msg/CoordinateStamped.msg"
+  ]
+}

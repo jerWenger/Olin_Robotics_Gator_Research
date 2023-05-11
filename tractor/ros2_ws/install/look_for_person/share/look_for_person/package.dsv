@@ -1,0 +1,9 @@
+source;share/look_for_person/hook/pythonpath.ps1
+source;share/look_for_person/hook/pythonpath.dsv
+source;share/look_for_person/hook/pythonpath.sh
+source;share/look_for_person/hook/ament_prefix_path.ps1
+source;share/look_for_person/hook/ament_prefix_path.dsv
+source;share/look_for_person/hook/ament_prefix_path.sh
+source;../../build/look_for_person/share/look_for_person/hook/pythonpath_develop.ps1
+source;../../build/look_for_person/share/look_for_person/hook/pythonpath_develop.dsv
+source;../../build/look_for_person/share/look_for_person/hook/pythonpath_develop.sh

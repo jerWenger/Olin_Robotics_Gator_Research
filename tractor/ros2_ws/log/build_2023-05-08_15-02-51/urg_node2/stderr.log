@@ -1,0 +1,11 @@
+[01m[K/home/hvakil/ros2_ws/src/urg_node2/urg_library/current/src/urg_utils.c:[m[K In function ‘[01m[Kurg_delay[m[K’:
+[01m[K/home/hvakil/ros2_ws/src/urg_node2/urg_library/current/src/urg_utils.c:188:18:[m[K [01;35m[Kwarning: [m[Kpassing argument 1 of ‘[01m[Kurg_sleep[m[K’ makes pointer from integer without a cast [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wint-conversion-Wint-conversion]8;;[m[K]
+  188 |   urg_sleep([01;35m[K1000 * delay_msec[m[K);
+      |             [01;35m[K~~~~~^~~~~~~~~~~~[m[K
+      |                  [01;35m[K|[m[K
+      |                  [01;35m[Kint[m[K
+In file included from [01m[K/home/hvakil/ros2_ws/src/urg_node2/urg_library/current/include/c/urg_utils.h:22[m[K,
+                 from [01m[K/home/hvakil/ros2_ws/src/urg_node2/urg_library/current/src/urg_utils.c:13[m[K:
+[01m[K/home/hvakil/ros2_ws/src/urg_node2/urg_library/current/include/c/urg_sensor.h:993:34:[m[K [01;36m[Knote: [m[Kexpected ‘[01m[Kurg_t *[m[K’ but argument is of type ‘[01m[Kint[m[K’
+  993 |     extern void urg_sleep([01;36m[Kurg_t *urg[m[K);
+      |                           [01;36m[K~~~~~~~^~~[m[K

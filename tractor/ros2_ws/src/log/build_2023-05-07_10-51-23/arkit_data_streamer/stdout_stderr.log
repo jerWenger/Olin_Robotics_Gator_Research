@@ -1,0 +1,38 @@
+/usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+  warnings.warn(
+running develop
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+/usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.16.0-unknown is an invalid version and will not be supported in a future release
+  warnings.warn(
+/usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 0.1.43ubuntu1 is an invalid version and will not be supported in a future release
+  warnings.warn(
+/usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.1build1 is an invalid version and will not be supported in a future release
+  warnings.warn(
+running egg_info
+creating arkit_data_streamer.egg-info
+writing arkit_data_streamer.egg-info/PKG-INFO
+writing dependency_links to arkit_data_streamer.egg-info/dependency_links.txt
+writing entry points to arkit_data_streamer.egg-info/entry_points.txt
+writing requirements to arkit_data_streamer.egg-info/requires.txt
+writing top-level names to arkit_data_streamer.egg-info/top_level.txt
+writing manifest file 'arkit_data_streamer.egg-info/SOURCES.txt'
+reading manifest file 'arkit_data_streamer.egg-info/SOURCES.txt'
+writing manifest file 'arkit_data_streamer.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/hvakil/ros2_ws/src/install/arkit_data_streamer/lib/python3.10/site-packages/arkit-data-streamer.egg-link (link to .)
+Installing gps_server script to /home/hvakil/ros2_ws/src/install/arkit_data_streamer/lib/arkit_data_streamer
+Installing image_server script to /home/hvakil/ros2_ws/src/install/arkit_data_streamer/lib/arkit_data_streamer
+Installing odometry_recorder script to /home/hvakil/ros2_ws/src/install/arkit_data_streamer/lib/arkit_data_streamer
+Installing pose_server script to /home/hvakil/ros2_ws/src/install/arkit_data_streamer/lib/arkit_data_streamer
+
+Installed /home/hvakil/ros2_ws/src/build/arkit_data_streamer
+running install_data
+creating /home/hvakil/ros2_ws/src/install/arkit_data_streamer/share/ament_index
+creating /home/hvakil/ros2_ws/src/install/arkit_data_streamer/share/ament_index/resource_index
+creating /home/hvakil/ros2_ws/src/install/arkit_data_streamer/share/ament_index/resource_index/packages
+copying resource/arkit_data_streamer -> /home/hvakil/ros2_ws/src/install/arkit_data_streamer/share/ament_index/resource_index/packages
+copying package.xml -> /home/hvakil/ros2_ws/src/install/arkit_data_streamer/share/arkit_data_streamer
+copying launch/launch_data_servers.py -> /home/hvakil/ros2_ws/src/install/arkit_data_streamer/share/arkit_data_streamer

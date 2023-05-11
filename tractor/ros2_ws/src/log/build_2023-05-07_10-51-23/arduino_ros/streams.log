@@ -1,0 +1,36 @@
+[4.714s] Invoking command in '/home/hvakil/ros2_ws/src/build/arduino_ros': PYTHONPATH=/home/hvakil/ros2_ws/src/build/arduino_ros/prefix_override:/home/hvakil/ros2_ws/src/install/arduino_ros/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/hvakil/ros2_ws/src/build/arduino_ros/build --no-deps install_data
+[5.691s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[5.692s]   warnings.warn(
+[5.803s] running develop
+[5.804s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[5.804s]   warnings.warn(
+[5.806s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[5.806s]   warnings.warn(
+[5.992s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.16.0-unknown is an invalid version and will not be supported in a future release
+[5.993s]   warnings.warn(
+[5.993s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 0.1.43ubuntu1 is an invalid version and will not be supported in a future release
+[5.993s]   warnings.warn(
+[5.993s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.1build1 is an invalid version and will not be supported in a future release
+[5.994s]   warnings.warn(
+[6.329s] running egg_info
+[6.330s] creating arduino_ros.egg-info
+[6.330s] writing arduino_ros.egg-info/PKG-INFO
+[6.330s] writing dependency_links to arduino_ros.egg-info/dependency_links.txt
+[6.331s] writing entry points to arduino_ros.egg-info/entry_points.txt
+[6.331s] writing requirements to arduino_ros.egg-info/requires.txt
+[6.331s] writing top-level names to arduino_ros.egg-info/top_level.txt
+[6.343s] writing manifest file 'arduino_ros.egg-info/SOURCES.txt'
+[6.347s] reading manifest file 'arduino_ros.egg-info/SOURCES.txt'
+[6.349s] writing manifest file 'arduino_ros.egg-info/SOURCES.txt'
+[6.362s] running build_ext
+[6.362s] Creating /home/hvakil/ros2_ws/src/install/arduino_ros/lib/python3.10/site-packages/arduino-ros.egg-link (link to .)
+[6.364s] Installing TreadWriter script to /home/hvakil/ros2_ws/src/install/arduino_ros/lib/arduino_ros
+[6.365s] 
+[6.365s] Installed /home/hvakil/ros2_ws/src/build/arduino_ros
+[6.366s] running install_data
+[6.366s] creating /home/hvakil/ros2_ws/src/install/arduino_ros/share/ament_index
+[6.366s] creating /home/hvakil/ros2_ws/src/install/arduino_ros/share/ament_index/resource_index
+[6.367s] creating /home/hvakil/ros2_ws/src/install/arduino_ros/share/ament_index/resource_index/packages
+[6.367s] copying resource/arduino_ros -> /home/hvakil/ros2_ws/src/install/arduino_ros/share/ament_index/resource_index/packages
+[6.367s] copying package.xml -> /home/hvakil/ros2_ws/src/install/arduino_ros/share/arduino_ros
+[6.489s] Invoked command in '/home/hvakil/ros2_ws/src/build/arduino_ros' returned '0': PYTHONPATH=/home/hvakil/ros2_ws/src/build/arduino_ros/prefix_override:/home/hvakil/ros2_ws/src/install/arduino_ros/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/hvakil/ros2_ws/src/build/arduino_ros/build --no-deps install_data

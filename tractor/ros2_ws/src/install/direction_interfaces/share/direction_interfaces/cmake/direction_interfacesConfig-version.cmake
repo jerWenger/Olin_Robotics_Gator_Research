@@ -1,0 +1,1 @@
+/home/hvakil/ros2_ws/src/build/direction_interfaces/ament_cmake_core/direction_interfacesConfig-version.cmake

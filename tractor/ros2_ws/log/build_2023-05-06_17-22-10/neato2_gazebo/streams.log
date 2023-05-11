@@ -1,0 +1,41 @@
+[0.006s] Invoking command in '/home/hvakil/ros2_ws/build/neato2_gazebo': AMENT_PREFIX_PATH=/home/hvakil/ros2_ws/install/neato2_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hvakil/ros2_ws/install/neato2_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/hvakil/ros2_ws/install/neato2_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hvakil/ros2_ws/install/neato2_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/hvakil/ros2_ws/src/neato_packages/neato2_gazebo -DCMAKE_INSTALL_PREFIX=/home/hvakil/ros2_ws/install/neato2_gazebo
+[0.041s] -- The C compiler identification is GNU 11.3.0
+[0.079s] -- The CXX compiler identification is GNU 11.3.0
+[0.084s] -- Detecting C compiler ABI info
+[0.129s] -- Detecting C compiler ABI info - done
+[0.134s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.134s] -- Detecting C compile features
+[0.135s] -- Detecting C compile features - done
+[0.137s] -- Detecting CXX compiler ABI info
+[0.187s] -- Detecting CXX compiler ABI info - done
+[0.192s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.192s] -- Detecting CXX compile features
+[0.193s] -- Detecting CXX compile features - done
+[0.194s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.315s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[0.379s] -- Found neato2_interfaces: 0.0.0 (/home/hvakil/ros2_ws/install/neato2_interfaces/share/neato2_interfaces/cmake)
+[0.404s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.408s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.414s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.425s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.440s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.460s] [31mCMake Error at CMakeLists.txt:21 (find_package):
+[0.460s]   By not providing "Findgazebo_ros.cmake" in CMAKE_MODULE_PATH this project
+[0.460s]   has asked CMake to find a package configuration file provided by
+[0.460s]   "gazebo_ros", but CMake did not find one.
+[0.460s] 
+[0.460s]   Could not find a package configuration file provided by "gazebo_ros" with
+[0.460s]   any of the following names:
+[0.460s] 
+[0.460s]     gazebo_rosConfig.cmake
+[0.460s]     gazebo_ros-config.cmake
+[0.460s] 
+[0.461s]   Add the installation prefix of "gazebo_ros" to CMAKE_PREFIX_PATH or set
+[0.461s]   "gazebo_ros_DIR" to a directory containing one of the above files.  If
+[0.461s]   "gazebo_ros" provides a separate development package or SDK, be sure it has
+[0.461s]   been installed.
+[0.461s] 
+[0.461s] [0m
+[0.461s] -- Configuring incomplete, errors occurred!
+[0.461s] See also "/home/hvakil/ros2_ws/build/neato2_gazebo/CMakeFiles/CMakeOutput.log".
+[0.465s] Invoked command in '/home/hvakil/ros2_ws/build/neato2_gazebo' returned '1': AMENT_PREFIX_PATH=/home/hvakil/ros2_ws/install/neato2_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/hvakil/ros2_ws/install/neato2_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/hvakil/ros2_ws/install/neato2_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/hvakil/ros2_ws/install/neato2_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/hvakil/ros2_ws/src/neato_packages/neato2_gazebo -DCMAKE_INSTALL_PREFIX=/home/hvakil/ros2_ws/install/neato2_gazebo

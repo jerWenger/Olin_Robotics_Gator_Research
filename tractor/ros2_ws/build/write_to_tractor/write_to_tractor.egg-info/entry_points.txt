@@ -1,0 +1,3 @@
+[console_scripts]
+tractor_writer = write_to_tractor.tractor_writer:main
+

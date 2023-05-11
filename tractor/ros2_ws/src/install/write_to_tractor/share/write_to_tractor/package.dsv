@@ -1,0 +1,9 @@
+source;share/write_to_tractor/hook/pythonpath.ps1
+source;share/write_to_tractor/hook/pythonpath.dsv
+source;share/write_to_tractor/hook/pythonpath.sh
+source;share/write_to_tractor/hook/ament_prefix_path.ps1
+source;share/write_to_tractor/hook/ament_prefix_path.dsv
+source;share/write_to_tractor/hook/ament_prefix_path.sh
+source;../../build/write_to_tractor/share/write_to_tractor/hook/pythonpath_develop.ps1
+source;../../build/write_to_tractor/share/write_to_tractor/hook/pythonpath_develop.dsv
+source;../../build/write_to_tractor/share/write_to_tractor/hook/pythonpath_develop.sh

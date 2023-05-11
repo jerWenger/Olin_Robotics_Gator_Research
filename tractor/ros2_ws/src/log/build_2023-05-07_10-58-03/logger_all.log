@@ -1,0 +1,828 @@
+[0.473s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.473s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f5471a65090>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f5472234220>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f5472234220>>)
+[0.513s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.514s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.514s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.514s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.514s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.514s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.514s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/hvakil/ros2_ws/src'
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.514s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.526s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.526s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.526s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.526s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.526s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.526s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.526s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.526s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.526s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy) by extensions ['ignore', 'ignore_ament_install']
+[0.526s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy) by extension 'ignore'
+[0.526s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy) by extension 'ignore_ament_install'
+[0.526s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy) by extensions ['colcon_pkg']
+[0.526s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy) by extension 'colcon_pkg'
+[0.526s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy) by extensions ['colcon_meta']
+[0.527s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy) by extension 'colcon_meta'
+[0.527s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy) by extensions ['ros']
+[0.527s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy) by extension 'ros'
+[0.527s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy) by extensions ['cmake', 'python']
+[0.527s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy) by extension 'cmake'
+[0.527s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy) by extension 'python'
+[0.527s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy) by extensions ['python_setup_py']
+[0.527s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy) by extension 'python_setup_py'
+[0.527s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge) by extensions ['ignore', 'ignore_ament_install']
+[0.527s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge) by extension 'ignore'
+[0.527s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge) by extension 'ignore_ament_install'
+[0.527s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge) by extensions ['colcon_pkg']
+[0.527s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge) by extension 'colcon_pkg'
+[0.527s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge) by extensions ['colcon_meta']
+[0.527s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge) by extension 'colcon_meta'
+[0.527s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge) by extensions ['ros']
+[0.527s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge) by extension 'ros'
+[0.527s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge) by extensions ['cmake', 'python']
+[0.527s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge) by extension 'cmake'
+[0.527s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge) by extension 'python'
+[0.527s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge) by extensions ['python_setup_py']
+[0.527s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge) by extension 'python_setup_py'
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge) by extensions ['ignore', 'ignore_ament_install']
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge) by extension 'ignore'
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge) by extension 'ignore_ament_install'
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge) by extensions ['colcon_pkg']
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge) by extension 'colcon_pkg'
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge) by extensions ['colcon_meta']
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge) by extension 'colcon_meta'
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge) by extensions ['ros']
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge) by extension 'ros'
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge) by extensions ['cmake', 'python']
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge) by extension 'cmake'
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge) by extension 'python'
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge) by extensions ['python_setup_py']
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge) by extension 'python_setup_py'
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge/Assets.xcassets) by extensions ['ignore', 'ignore_ament_install']
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge/Assets.xcassets) by extension 'ignore'
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge/Assets.xcassets) by extension 'ignore_ament_install'
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge/Assets.xcassets) by extensions ['colcon_pkg']
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge/Assets.xcassets) by extension 'colcon_pkg'
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge/Assets.xcassets) by extensions ['colcon_meta']
+[0.528s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge/Assets.xcassets) by extension 'colcon_meta'
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge/Assets.xcassets) by extensions ['ros']
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge/Assets.xcassets) by extension 'ros'
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge/Assets.xcassets) by extensions ['cmake', 'python']
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge/Assets.xcassets) by extension 'cmake'
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge/Assets.xcassets) by extension 'python'
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge/Assets.xcassets) by extensions ['python_setup_py']
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge/Assets.xcassets) by extension 'python_setup_py'
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge/Assets.xcassets/AccentColor.colorset) by extensions ['ignore', 'ignore_ament_install']
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge/Assets.xcassets/AccentColor.colorset) by extension 'ignore'
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge/Assets.xcassets/AccentColor.colorset) by extension 'ignore_ament_install'
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge/Assets.xcassets/AccentColor.colorset) by extensions ['colcon_pkg']
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge/Assets.xcassets/AccentColor.colorset) by extension 'colcon_pkg'
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge/Assets.xcassets/AccentColor.colorset) by extensions ['colcon_meta']
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge/Assets.xcassets/AccentColor.colorset) by extension 'colcon_meta'
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge/Assets.xcassets/AccentColor.colorset) by extensions ['ros']
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge/Assets.xcassets/AccentColor.colorset) by extension 'ros'
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge/Assets.xcassets/AccentColor.colorset) by extensions ['cmake', 'python']
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge/Assets.xcassets/AccentColor.colorset) by extension 'cmake'
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge/Assets.xcassets/AccentColor.colorset) by extension 'python'
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge/Assets.xcassets/AccentColor.colorset) by extensions ['python_setup_py']
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge/Assets.xcassets/AccentColor.colorset) by extension 'python_setup_py'
+[0.530s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge/Assets.xcassets/AppIcon.appiconset) by extensions ['ignore', 'ignore_ament_install']
+[0.530s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge/Assets.xcassets/AppIcon.appiconset) by extension 'ignore'
+[0.530s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge/Assets.xcassets/AppIcon.appiconset) by extension 'ignore_ament_install'
+[0.530s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge/Assets.xcassets/AppIcon.appiconset) by extensions ['colcon_pkg']
+[0.530s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge/Assets.xcassets/AppIcon.appiconset) by extension 'colcon_pkg'
+[0.530s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge/Assets.xcassets/AppIcon.appiconset) by extensions ['colcon_meta']
+[0.530s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge/Assets.xcassets/AppIcon.appiconset) by extension 'colcon_meta'
+[0.530s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge/Assets.xcassets/AppIcon.appiconset) by extensions ['ros']
+[0.530s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge/Assets.xcassets/AppIcon.appiconset) by extension 'ros'
+[0.530s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge/Assets.xcassets/AppIcon.appiconset) by extensions ['cmake', 'python']
+[0.530s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge/Assets.xcassets/AppIcon.appiconset) by extension 'cmake'
+[0.530s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge/Assets.xcassets/AppIcon.appiconset) by extension 'python'
+[0.530s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge/Assets.xcassets/AppIcon.appiconset) by extensions ['python_setup_py']
+[0.530s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge/Assets.xcassets/AppIcon.appiconset) by extension 'python_setup_py'
+[0.530s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge/Experience.rcproject) by extensions ['ignore', 'ignore_ament_install']
+[0.530s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge/Experience.rcproject) by extension 'ignore'
+[0.530s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge/Experience.rcproject) by extension 'ignore_ament_install'
+[0.530s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge/Experience.rcproject) by extensions ['colcon_pkg']
+[0.530s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge/Experience.rcproject) by extension 'colcon_pkg'
+[0.530s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge/Experience.rcproject) by extensions ['colcon_meta']
+[0.531s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge/Experience.rcproject) by extension 'colcon_meta'
+[0.531s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge/Experience.rcproject) by extensions ['ros']
+[0.531s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge/Experience.rcproject) by extension 'ros'
+[0.531s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge/Experience.rcproject) by extensions ['cmake', 'python']
+[0.531s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge/Experience.rcproject) by extension 'cmake'
+[0.531s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge/Experience.rcproject) by extension 'python'
+[0.531s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge/Experience.rcproject) by extensions ['python_setup_py']
+[0.531s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge/Experience.rcproject) by extension 'python_setup_py'
+[0.531s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge/Experience.rcproject/Library) by extensions ['ignore', 'ignore_ament_install']
+[0.531s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge/Experience.rcproject/Library) by extension 'ignore'
+[0.531s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge/Experience.rcproject/Library) by extension 'ignore_ament_install'
+[0.531s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge/Experience.rcproject/Library) by extensions ['colcon_pkg']
+[0.531s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge/Experience.rcproject/Library) by extension 'colcon_pkg'
+[0.531s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge/Experience.rcproject/Library) by extensions ['colcon_meta']
+[0.531s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge/Experience.rcproject/Library) by extension 'colcon_meta'
+[0.531s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge/Experience.rcproject/Library) by extensions ['ros']
+[0.531s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge/Experience.rcproject/Library) by extension 'ros'
+[0.531s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge/Experience.rcproject/Library) by extensions ['cmake', 'python']
+[0.531s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge/Experience.rcproject/Library) by extension 'cmake'
+[0.531s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge/Experience.rcproject/Library) by extension 'python'
+[0.531s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge/Experience.rcproject/Library) by extensions ['python_setup_py']
+[0.531s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge/Experience.rcproject/Library) by extension 'python_setup_py'
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge/Experience.rcproject/Library/ProjectLibrary) by extensions ['ignore', 'ignore_ament_install']
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge/Experience.rcproject/Library/ProjectLibrary) by extension 'ignore'
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge/Experience.rcproject/Library/ProjectLibrary) by extension 'ignore_ament_install'
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge/Experience.rcproject/Library/ProjectLibrary) by extensions ['colcon_pkg']
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge/Experience.rcproject/Library/ProjectLibrary) by extension 'colcon_pkg'
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge/Experience.rcproject/Library/ProjectLibrary) by extensions ['colcon_meta']
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge/Experience.rcproject/Library/ProjectLibrary) by extension 'colcon_meta'
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge/Experience.rcproject/Library/ProjectLibrary) by extensions ['ros']
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge/Experience.rcproject/Library/ProjectLibrary) by extension 'ros'
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge/Experience.rcproject/Library/ProjectLibrary) by extensions ['cmake', 'python']
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge/Experience.rcproject/Library/ProjectLibrary) by extension 'cmake'
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge/Experience.rcproject/Library/ProjectLibrary) by extension 'python'
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge/Experience.rcproject/Library/ProjectLibrary) by extensions ['python_setup_py']
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge/Experience.rcproject/Library/ProjectLibrary) by extension 'python_setup_py'
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge/Experience.rcproject/SceneThumbnails) by extensions ['ignore', 'ignore_ament_install']
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge/Experience.rcproject/SceneThumbnails) by extension 'ignore'
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge/Experience.rcproject/SceneThumbnails) by extension 'ignore_ament_install'
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge/Experience.rcproject/SceneThumbnails) by extensions ['colcon_pkg']
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge/Experience.rcproject/SceneThumbnails) by extension 'colcon_pkg'
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge/Experience.rcproject/SceneThumbnails) by extensions ['colcon_meta']
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge/Experience.rcproject/SceneThumbnails) by extension 'colcon_meta'
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge/Experience.rcproject/SceneThumbnails) by extensions ['ros']
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge/Experience.rcproject/SceneThumbnails) by extension 'ros'
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge/Experience.rcproject/SceneThumbnails) by extensions ['cmake', 'python']
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge/Experience.rcproject/SceneThumbnails) by extension 'cmake'
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge/Experience.rcproject/SceneThumbnails) by extension 'python'
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge/Experience.rcproject/SceneThumbnails) by extensions ['python_setup_py']
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge/Experience.rcproject/SceneThumbnails) by extension 'python_setup_py'
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge/Experience.rcproject/SceneThumbnails/F9610871-0955-494F-A5C3-51D1A281BAB3.thumbnails) by extensions ['ignore', 'ignore_ament_install']
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge/Experience.rcproject/SceneThumbnails/F9610871-0955-494F-A5C3-51D1A281BAB3.thumbnails) by extension 'ignore'
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge/Experience.rcproject/SceneThumbnails/F9610871-0955-494F-A5C3-51D1A281BAB3.thumbnails) by extension 'ignore_ament_install'
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge/Experience.rcproject/SceneThumbnails/F9610871-0955-494F-A5C3-51D1A281BAB3.thumbnails) by extensions ['colcon_pkg']
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge/Experience.rcproject/SceneThumbnails/F9610871-0955-494F-A5C3-51D1A281BAB3.thumbnails) by extension 'colcon_pkg'
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge/Experience.rcproject/SceneThumbnails/F9610871-0955-494F-A5C3-51D1A281BAB3.thumbnails) by extensions ['colcon_meta']
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge/Experience.rcproject/SceneThumbnails/F9610871-0955-494F-A5C3-51D1A281BAB3.thumbnails) by extension 'colcon_meta'
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge/Experience.rcproject/SceneThumbnails/F9610871-0955-494F-A5C3-51D1A281BAB3.thumbnails) by extensions ['ros']
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge/Experience.rcproject/SceneThumbnails/F9610871-0955-494F-A5C3-51D1A281BAB3.thumbnails) by extension 'ros'
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge/Experience.rcproject/SceneThumbnails/F9610871-0955-494F-A5C3-51D1A281BAB3.thumbnails) by extensions ['cmake', 'python']
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge/Experience.rcproject/SceneThumbnails/F9610871-0955-494F-A5C3-51D1A281BAB3.thumbnails) by extension 'cmake'
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge/Experience.rcproject/SceneThumbnails/F9610871-0955-494F-A5C3-51D1A281BAB3.thumbnails) by extension 'python'
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge/Experience.rcproject/SceneThumbnails/F9610871-0955-494F-A5C3-51D1A281BAB3.thumbnails) by extensions ['python_setup_py']
+[0.533s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge/Experience.rcproject/SceneThumbnails/F9610871-0955-494F-A5C3-51D1A281BAB3.thumbnails) by extension 'python_setup_py'
+[0.534s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge/Preview Content) by extensions ['ignore', 'ignore_ament_install']
+[0.534s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge/Preview Content) by extension 'ignore'
+[0.534s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge/Preview Content) by extension 'ignore_ament_install'
+[0.534s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge/Preview Content) by extensions ['colcon_pkg']
+[0.534s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge/Preview Content) by extension 'colcon_pkg'
+[0.534s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge/Preview Content) by extensions ['colcon_meta']
+[0.534s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge/Preview Content) by extension 'colcon_meta'
+[0.534s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge/Preview Content) by extensions ['ros']
+[0.534s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge/Preview Content) by extension 'ros'
+[0.534s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge/Preview Content) by extensions ['cmake', 'python']
+[0.534s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge/Preview Content) by extension 'cmake'
+[0.534s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge/Preview Content) by extension 'python'
+[0.534s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge/Preview Content) by extensions ['python_setup_py']
+[0.534s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge/Preview Content) by extension 'python_setup_py'
+[0.534s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge/Preview Content/Preview Assets.xcassets) by extensions ['ignore', 'ignore_ament_install']
+[0.534s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge/Preview Content/Preview Assets.xcassets) by extension 'ignore'
+[0.534s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge/Preview Content/Preview Assets.xcassets) by extension 'ignore_ament_install'
+[0.534s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge/Preview Content/Preview Assets.xcassets) by extensions ['colcon_pkg']
+[0.534s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge/Preview Content/Preview Assets.xcassets) by extension 'colcon_pkg'
+[0.534s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge/Preview Content/Preview Assets.xcassets) by extensions ['colcon_meta']
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge/Preview Content/Preview Assets.xcassets) by extension 'colcon_meta'
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge/Preview Content/Preview Assets.xcassets) by extensions ['ros']
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge/Preview Content/Preview Assets.xcassets) by extension 'ros'
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge/Preview Content/Preview Assets.xcassets) by extensions ['cmake', 'python']
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge/Preview Content/Preview Assets.xcassets) by extension 'cmake'
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge/Preview Content/Preview Assets.xcassets) by extension 'python'
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge/Preview Content/Preview Assets.xcassets) by extensions ['python_setup_py']
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge/Preview Content/Preview Assets.xcassets) by extension 'python_setup_py'
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge.xcodeproj) by extensions ['ignore', 'ignore_ament_install']
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge.xcodeproj) by extension 'ignore'
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge.xcodeproj) by extension 'ignore_ament_install'
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge.xcodeproj) by extensions ['colcon_pkg']
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge.xcodeproj) by extension 'colcon_pkg'
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge.xcodeproj) by extensions ['colcon_meta']
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge.xcodeproj) by extension 'colcon_meta'
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge.xcodeproj) by extensions ['ros']
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge.xcodeproj) by extension 'ros'
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge.xcodeproj) by extensions ['cmake', 'python']
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge.xcodeproj) by extension 'cmake'
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge.xcodeproj) by extension 'python'
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge.xcodeproj) by extensions ['python_setup_py']
+[0.535s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge.xcodeproj) by extension 'python_setup_py'
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge.xcodeproj/project.xcworkspace) by extensions ['ignore', 'ignore_ament_install']
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge.xcodeproj/project.xcworkspace) by extension 'ignore'
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge.xcodeproj/project.xcworkspace) by extension 'ignore_ament_install'
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge.xcodeproj/project.xcworkspace) by extensions ['colcon_pkg']
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge.xcodeproj/project.xcworkspace) by extension 'colcon_pkg'
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge.xcodeproj/project.xcworkspace) by extensions ['colcon_meta']
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge.xcodeproj/project.xcworkspace) by extension 'colcon_meta'
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge.xcodeproj/project.xcworkspace) by extensions ['ros']
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge.xcodeproj/project.xcworkspace) by extension 'ros'
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge.xcodeproj/project.xcworkspace) by extensions ['cmake', 'python']
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge.xcodeproj/project.xcworkspace) by extension 'cmake'
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge.xcodeproj/project.xcworkspace) by extension 'python'
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge.xcodeproj/project.xcworkspace) by extensions ['python_setup_py']
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge.xcodeproj/project.xcworkspace) by extension 'python_setup_py'
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge.xcodeproj/project.xcworkspace/xcshareddata) by extensions ['ignore', 'ignore_ament_install']
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge.xcodeproj/project.xcworkspace/xcshareddata) by extension 'ignore'
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge.xcodeproj/project.xcworkspace/xcshareddata) by extension 'ignore_ament_install'
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge.xcodeproj/project.xcworkspace/xcshareddata) by extensions ['colcon_pkg']
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge.xcodeproj/project.xcworkspace/xcshareddata) by extension 'colcon_pkg'
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge.xcodeproj/project.xcworkspace/xcshareddata) by extensions ['colcon_meta']
+[0.536s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge.xcodeproj/project.xcworkspace/xcshareddata) by extension 'colcon_meta'
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge.xcodeproj/project.xcworkspace/xcshareddata) by extensions ['ros']
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge.xcodeproj/project.xcworkspace/xcshareddata) by extension 'ros'
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge.xcodeproj/project.xcworkspace/xcshareddata) by extensions ['cmake', 'python']
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge.xcodeproj/project.xcworkspace/xcshareddata) by extension 'cmake'
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge.xcodeproj/project.xcworkspace/xcshareddata) by extension 'python'
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge.xcodeproj/project.xcworkspace/xcshareddata) by extensions ['python_setup_py']
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge.xcodeproj/project.xcworkspace/xcshareddata) by extension 'python_setup_py'
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge.xcodeproj/project.xcworkspace/xcuserdata) by extensions ['ignore', 'ignore_ament_install']
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge.xcodeproj/project.xcworkspace/xcuserdata) by extension 'ignore'
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge.xcodeproj/project.xcworkspace/xcuserdata) by extension 'ignore_ament_install'
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge.xcodeproj/project.xcworkspace/xcuserdata) by extensions ['colcon_pkg']
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge.xcodeproj/project.xcworkspace/xcuserdata) by extension 'colcon_pkg'
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge.xcodeproj/project.xcworkspace/xcuserdata) by extensions ['colcon_meta']
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge.xcodeproj/project.xcworkspace/xcuserdata) by extension 'colcon_meta'
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge.xcodeproj/project.xcworkspace/xcuserdata) by extensions ['ros']
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge.xcodeproj/project.xcworkspace/xcuserdata) by extension 'ros'
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge.xcodeproj/project.xcworkspace/xcuserdata) by extensions ['cmake', 'python']
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge.xcodeproj/project.xcworkspace/xcuserdata) by extension 'cmake'
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge.xcodeproj/project.xcworkspace/xcuserdata) by extension 'python'
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge.xcodeproj/project.xcworkspace/xcuserdata) by extensions ['python_setup_py']
+[0.537s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge.xcodeproj/project.xcworkspace/xcuserdata) by extension 'python_setup_py'
+[0.538s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge.xcodeproj/project.xcworkspace/xcuserdata/occamlab.xcuserdatad) by extensions ['ignore', 'ignore_ament_install']
+[0.538s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge.xcodeproj/project.xcworkspace/xcuserdata/occamlab.xcuserdatad) by extension 'ignore'
+[0.538s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge.xcodeproj/project.xcworkspace/xcuserdata/occamlab.xcuserdatad) by extension 'ignore_ament_install'
+[0.538s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge.xcodeproj/project.xcworkspace/xcuserdata/occamlab.xcuserdatad) by extensions ['colcon_pkg']
+[0.538s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge.xcodeproj/project.xcworkspace/xcuserdata/occamlab.xcuserdatad) by extension 'colcon_pkg'
+[0.538s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge.xcodeproj/project.xcworkspace/xcuserdata/occamlab.xcuserdatad) by extensions ['colcon_meta']
+[0.538s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge.xcodeproj/project.xcworkspace/xcuserdata/occamlab.xcuserdatad) by extension 'colcon_meta'
+[0.538s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge.xcodeproj/project.xcworkspace/xcuserdata/occamlab.xcuserdatad) by extensions ['ros']
+[0.538s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge.xcodeproj/project.xcworkspace/xcuserdata/occamlab.xcuserdatad) by extension 'ros'
+[0.538s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge.xcodeproj/project.xcworkspace/xcuserdata/occamlab.xcuserdatad) by extensions ['cmake', 'python']
+[0.538s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge.xcodeproj/project.xcworkspace/xcuserdata/occamlab.xcuserdatad) by extension 'cmake'
+[0.538s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge.xcodeproj/project.xcworkspace/xcuserdata/occamlab.xcuserdatad) by extension 'python'
+[0.538s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge.xcodeproj/project.xcworkspace/xcuserdata/occamlab.xcuserdatad) by extensions ['python_setup_py']
+[0.538s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/ARKitROS2Bridge/ARKitROS2Bridge.xcodeproj/project.xcworkspace/xcuserdata/occamlab.xcuserdatad) by extension 'python_setup_py'
+[0.538s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/arduino) by extensions ['ignore', 'ignore_ament_install']
+[0.538s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/arduino) by extension 'ignore'
+[0.538s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/arduino) by extension 'ignore_ament_install'
+[0.538s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/arduino) by extensions ['colcon_pkg']
+[0.538s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/arduino) by extension 'colcon_pkg'
+[0.538s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/arduino) by extensions ['colcon_meta']
+[0.538s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/arduino) by extension 'colcon_meta'
+[0.538s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/arduino) by extensions ['ros']
+[0.539s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/arduino) by extension 'ros'
+[0.539s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/arduino) by extensions ['cmake', 'python']
+[0.539s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/arduino) by extension 'cmake'
+[0.539s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/arduino) by extension 'python'
+[0.539s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/arduino) by extensions ['python_setup_py']
+[0.539s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/arduino) by extension 'python_setup_py'
+[0.539s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/arduino/arduino_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.539s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/arduino/arduino_ros) by extension 'ignore'
+[0.539s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/arduino/arduino_ros) by extension 'ignore_ament_install'
+[0.539s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/arduino/arduino_ros) by extensions ['colcon_pkg']
+[0.539s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/arduino/arduino_ros) by extension 'colcon_pkg'
+[0.539s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/arduino/arduino_ros) by extensions ['colcon_meta']
+[0.539s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/arduino/arduino_ros) by extension 'colcon_meta'
+[0.539s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/arduino/arduino_ros) by extensions ['ros']
+[0.539s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/arduino/arduino_ros) by extension 'ros'
+[0.542s] DEBUG:colcon.colcon_core.package_identification:Package 'field_autonomy/arduino/arduino_ros' with type 'ros.ament_python' and name 'arduino_ros'
+[0.542s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/arduino/blink) by extensions ['ignore', 'ignore_ament_install']
+[0.542s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/arduino/blink) by extension 'ignore'
+[0.542s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/arduino/blink) by extension 'ignore_ament_install'
+[0.542s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/arduino/blink) by extensions ['colcon_pkg']
+[0.542s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/arduino/blink) by extension 'colcon_pkg'
+[0.542s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/arduino/blink) by extensions ['colcon_meta']
+[0.542s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/arduino/blink) by extension 'colcon_meta'
+[0.542s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/arduino/blink) by extensions ['ros']
+[0.542s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/arduino/blink) by extension 'ros'
+[0.542s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/arduino/blink) by extensions ['cmake', 'python']
+[0.542s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/arduino/blink) by extension 'cmake'
+[0.542s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/arduino/blink) by extension 'python'
+[0.542s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/arduino/blink) by extensions ['python_setup_py']
+[0.542s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/arduino/blink) by extension 'python_setup_py'
+[0.543s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/arduino/passthrough) by extensions ['ignore', 'ignore_ament_install']
+[0.543s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/arduino/passthrough) by extension 'ignore'
+[0.543s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/arduino/passthrough) by extension 'ignore_ament_install'
+[0.543s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/arduino/passthrough) by extensions ['colcon_pkg']
+[0.543s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/arduino/passthrough) by extension 'colcon_pkg'
+[0.543s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/arduino/passthrough) by extensions ['colcon_meta']
+[0.543s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/arduino/passthrough) by extension 'colcon_meta'
+[0.543s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/arduino/passthrough) by extensions ['ros']
+[0.543s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/arduino/passthrough) by extension 'ros'
+[0.543s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/arduino/passthrough) by extensions ['cmake', 'python']
+[0.543s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/arduino/passthrough) by extension 'cmake'
+[0.543s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/arduino/passthrough) by extension 'python'
+[0.543s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/arduino/passthrough) by extensions ['python_setup_py']
+[0.543s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/arduino/passthrough) by extension 'python_setup_py'
+[0.543s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/arduino/read_controller_input) by extensions ['ignore', 'ignore_ament_install']
+[0.544s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/arduino/read_controller_input) by extension 'ignore'
+[0.544s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/arduino/read_controller_input) by extension 'ignore_ament_install'
+[0.544s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/arduino/read_controller_input) by extensions ['colcon_pkg']
+[0.544s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/arduino/read_controller_input) by extension 'colcon_pkg'
+[0.544s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/arduino/read_controller_input) by extensions ['colcon_meta']
+[0.544s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/arduino/read_controller_input) by extension 'colcon_meta'
+[0.544s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/arduino/read_controller_input) by extensions ['ros']
+[0.544s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/arduino/read_controller_input) by extension 'ros'
+[0.544s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/arduino/read_controller_input) by extensions ['cmake', 'python']
+[0.544s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/arduino/read_controller_input) by extension 'cmake'
+[0.544s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/arduino/read_controller_input) by extension 'python'
+[0.544s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/arduino/read_controller_input) by extensions ['python_setup_py']
+[0.544s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/arduino/read_controller_input) by extension 'python_setup_py'
+[0.544s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/arduino/set_speed_test) by extensions ['ignore', 'ignore_ament_install']
+[0.544s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/arduino/set_speed_test) by extension 'ignore'
+[0.544s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/arduino/set_speed_test) by extension 'ignore_ament_install'
+[0.545s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/arduino/set_speed_test) by extensions ['colcon_pkg']
+[0.545s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/arduino/set_speed_test) by extension 'colcon_pkg'
+[0.545s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/arduino/set_speed_test) by extensions ['colcon_meta']
+[0.545s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/arduino/set_speed_test) by extension 'colcon_meta'
+[0.545s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/arduino/set_speed_test) by extensions ['ros']
+[0.545s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/arduino/set_speed_test) by extension 'ros'
+[0.545s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/arduino/set_speed_test) by extensions ['cmake', 'python']
+[0.545s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/arduino/set_speed_test) by extension 'cmake'
+[0.545s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/arduino/set_speed_test) by extension 'python'
+[0.545s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/arduino/set_speed_test) by extensions ['python_setup_py']
+[0.545s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/arduino/set_speed_test) by extension 'python_setup_py'
+[0.545s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/arkit_data_streamer) by extensions ['ignore', 'ignore_ament_install']
+[0.545s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/arkit_data_streamer) by extension 'ignore'
+[0.545s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/arkit_data_streamer) by extension 'ignore_ament_install'
+[0.545s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/arkit_data_streamer) by extensions ['colcon_pkg']
+[0.545s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/arkit_data_streamer) by extension 'colcon_pkg'
+[0.545s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/arkit_data_streamer) by extensions ['colcon_meta']
+[0.545s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/arkit_data_streamer) by extension 'colcon_meta'
+[0.545s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/arkit_data_streamer) by extensions ['ros']
+[0.546s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/arkit_data_streamer) by extension 'ros'
+[0.546s] DEBUG:colcon.colcon_core.package_identification:Package 'field_autonomy/arkit_data_streamer' with type 'ros.ament_python' and name 'arkit_data_streamer'
+[0.546s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/direction_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.546s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/direction_interfaces) by extension 'ignore'
+[0.546s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/direction_interfaces) by extension 'ignore_ament_install'
+[0.546s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/direction_interfaces) by extensions ['colcon_pkg']
+[0.546s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/direction_interfaces) by extension 'colcon_pkg'
+[0.546s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/direction_interfaces) by extensions ['colcon_meta']
+[0.546s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/direction_interfaces) by extension 'colcon_meta'
+[0.546s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/direction_interfaces) by extensions ['ros']
+[0.546s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/direction_interfaces) by extension 'ros'
+[0.547s] DEBUG:colcon.colcon_core.package_identification:Package 'field_autonomy/direction_interfaces' with type 'ros.ament_cmake' and name 'direction_interfaces'
+[0.547s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/gps_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.547s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/gps_interfaces) by extension 'ignore'
+[0.547s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/gps_interfaces) by extension 'ignore_ament_install'
+[0.547s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/gps_interfaces) by extensions ['colcon_pkg']
+[0.547s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/gps_interfaces) by extension 'colcon_pkg'
+[0.547s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/gps_interfaces) by extensions ['colcon_meta']
+[0.547s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/gps_interfaces) by extension 'colcon_meta'
+[0.547s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/gps_interfaces) by extensions ['ros']
+[0.547s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/gps_interfaces) by extension 'ros'
+[0.548s] DEBUG:colcon.colcon_core.package_identification:Package 'field_autonomy/gps_interfaces' with type 'ros.ament_cmake' and name 'gps_interfaces'
+[0.548s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/media) by extensions ['ignore', 'ignore_ament_install']
+[0.548s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/media) by extension 'ignore'
+[0.548s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/media) by extension 'ignore_ament_install'
+[0.548s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/media) by extensions ['colcon_pkg']
+[0.548s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/media) by extension 'colcon_pkg'
+[0.548s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/media) by extensions ['colcon_meta']
+[0.548s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/media) by extension 'colcon_meta'
+[0.548s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/media) by extensions ['ros']
+[0.548s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/media) by extension 'ros'
+[0.548s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/media) by extensions ['cmake', 'python']
+[0.549s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/media) by extension 'cmake'
+[0.549s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/media) by extension 'python'
+[0.549s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/media) by extensions ['python_setup_py']
+[0.549s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/media) by extension 'python_setup_py'
+[0.549s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/trail_finding) by extensions ['ignore', 'ignore_ament_install']
+[0.549s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/trail_finding) by extension 'ignore'
+[0.549s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/trail_finding) by extension 'ignore_ament_install'
+[0.549s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/trail_finding) by extensions ['colcon_pkg']
+[0.549s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/trail_finding) by extension 'colcon_pkg'
+[0.549s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/trail_finding) by extensions ['colcon_meta']
+[0.549s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/trail_finding) by extension 'colcon_meta'
+[0.549s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/trail_finding) by extensions ['ros']
+[0.549s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/trail_finding) by extension 'ros'
+[0.550s] DEBUG:colcon.colcon_core.package_identification:Package 'field_autonomy/trail_finding' with type 'ros.ament_python' and name 'trail_finding'
+[0.550s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/vel_calculator) by extensions ['ignore', 'ignore_ament_install']
+[0.550s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/vel_calculator) by extension 'ignore'
+[0.550s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/vel_calculator) by extension 'ignore_ament_install'
+[0.550s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/vel_calculator) by extensions ['colcon_pkg']
+[0.550s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/vel_calculator) by extension 'colcon_pkg'
+[0.550s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/vel_calculator) by extensions ['colcon_meta']
+[0.550s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/vel_calculator) by extension 'colcon_meta'
+[0.550s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/vel_calculator) by extensions ['ros']
+[0.550s] Level 1:colcon.colcon_core.package_identification:_identify(field_autonomy/vel_calculator) by extension 'ros'
+[0.551s] DEBUG:colcon.colcon_core.package_identification:Package 'field_autonomy/vel_calculator' with type 'ros.ament_python' and name 'vel_calculator'
+[0.551s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.551s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.551s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.551s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.551s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.551s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.551s] Level 1:colcon.colcon_core.package_identification:_identify(tractor) by extensions ['ignore', 'ignore_ament_install']
+[0.551s] Level 1:colcon.colcon_core.package_identification:_identify(tractor) by extension 'ignore'
+[0.551s] Level 1:colcon.colcon_core.package_identification:_identify(tractor) by extension 'ignore_ament_install'
+[0.551s] Level 1:colcon.colcon_core.package_identification:_identify(tractor) by extensions ['colcon_pkg']
+[0.551s] Level 1:colcon.colcon_core.package_identification:_identify(tractor) by extension 'colcon_pkg'
+[0.551s] Level 1:colcon.colcon_core.package_identification:_identify(tractor) by extensions ['colcon_meta']
+[0.551s] Level 1:colcon.colcon_core.package_identification:_identify(tractor) by extension 'colcon_meta'
+[0.551s] Level 1:colcon.colcon_core.package_identification:_identify(tractor) by extensions ['ros']
+[0.551s] Level 1:colcon.colcon_core.package_identification:_identify(tractor) by extension 'ros'
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(tractor) by extensions ['cmake', 'python']
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(tractor) by extension 'cmake'
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(tractor) by extension 'python'
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(tractor) by extensions ['python_setup_py']
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(tractor) by extension 'python_setup_py'
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(tractor/write_to_tractor) by extensions ['ignore', 'ignore_ament_install']
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(tractor/write_to_tractor) by extension 'ignore'
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(tractor/write_to_tractor) by extension 'ignore_ament_install'
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(tractor/write_to_tractor) by extensions ['colcon_pkg']
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(tractor/write_to_tractor) by extension 'colcon_pkg'
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(tractor/write_to_tractor) by extensions ['colcon_meta']
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(tractor/write_to_tractor) by extension 'colcon_meta'
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(tractor/write_to_tractor) by extensions ['ros']
+[0.552s] Level 1:colcon.colcon_core.package_identification:_identify(tractor/write_to_tractor) by extension 'ros'
+[0.553s] DEBUG:colcon.colcon_core.package_identification:Package 'tractor/write_to_tractor' with type 'ros.ament_python' and name 'write_to_tractor'
+[0.553s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.553s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.553s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.553s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.553s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.597s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.597s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.609s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/hvakil/ros2_ws/install
+[0.617s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 343 installed packages in /home/hvakil/ros2_humble/install
+[0.626s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 343 installed packages in /home/hvakil/ros2_humble/install/
+[0.628s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.649s] Level 5:colcon.colcon_core.verb:set package 'arduino_ros' build argument 'cmake_args' from command line to 'None'
+[0.649s] Level 5:colcon.colcon_core.verb:set package 'arduino_ros' build argument 'cmake_target' from command line to 'None'
+[0.649s] Level 5:colcon.colcon_core.verb:set package 'arduino_ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.649s] Level 5:colcon.colcon_core.verb:set package 'arduino_ros' build argument 'cmake_clean_cache' from command line to 'False'
+[0.649s] Level 5:colcon.colcon_core.verb:set package 'arduino_ros' build argument 'cmake_clean_first' from command line to 'False'
+[0.649s] Level 5:colcon.colcon_core.verb:set package 'arduino_ros' build argument 'cmake_force_configure' from command line to 'False'
+[0.649s] Level 5:colcon.colcon_core.verb:set package 'arduino_ros' build argument 'ament_cmake_args' from command line to 'None'
+[0.650s] Level 5:colcon.colcon_core.verb:set package 'arduino_ros' build argument 'catkin_cmake_args' from command line to 'None'
+[0.650s] Level 5:colcon.colcon_core.verb:set package 'arduino_ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.650s] DEBUG:colcon.colcon_core.verb:Building package 'arduino_ros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hvakil/ros2_ws/src/build/arduino_ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hvakil/ros2_ws/src/install/arduino_ros', 'merge_install': False, 'path': '/home/hvakil/ros2_ws/src/field_autonomy/arduino/arduino_ros', 'symlink_install': True, 'test_result_base': None}
+[0.651s] Level 5:colcon.colcon_core.verb:set package 'arkit_data_streamer' build argument 'cmake_args' from command line to 'None'
+[0.651s] Level 5:colcon.colcon_core.verb:set package 'arkit_data_streamer' build argument 'cmake_target' from command line to 'None'
+[0.651s] Level 5:colcon.colcon_core.verb:set package 'arkit_data_streamer' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.651s] Level 5:colcon.colcon_core.verb:set package 'arkit_data_streamer' build argument 'cmake_clean_cache' from command line to 'False'
+[0.651s] Level 5:colcon.colcon_core.verb:set package 'arkit_data_streamer' build argument 'cmake_clean_first' from command line to 'False'
+[0.651s] Level 5:colcon.colcon_core.verb:set package 'arkit_data_streamer' build argument 'cmake_force_configure' from command line to 'False'
+[0.651s] Level 5:colcon.colcon_core.verb:set package 'arkit_data_streamer' build argument 'ament_cmake_args' from command line to 'None'
+[0.651s] Level 5:colcon.colcon_core.verb:set package 'arkit_data_streamer' build argument 'catkin_cmake_args' from command line to 'None'
+[0.651s] Level 5:colcon.colcon_core.verb:set package 'arkit_data_streamer' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.651s] DEBUG:colcon.colcon_core.verb:Building package 'arkit_data_streamer' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hvakil/ros2_ws/src/build/arkit_data_streamer', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hvakil/ros2_ws/src/install/arkit_data_streamer', 'merge_install': False, 'path': '/home/hvakil/ros2_ws/src/field_autonomy/arkit_data_streamer', 'symlink_install': True, 'test_result_base': None}
+[0.652s] Level 5:colcon.colcon_core.verb:set package 'direction_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.652s] Level 5:colcon.colcon_core.verb:set package 'direction_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.652s] Level 5:colcon.colcon_core.verb:set package 'direction_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.652s] Level 5:colcon.colcon_core.verb:set package 'direction_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.653s] Level 5:colcon.colcon_core.verb:set package 'direction_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.653s] Level 5:colcon.colcon_core.verb:set package 'direction_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.653s] Level 5:colcon.colcon_core.verb:set package 'direction_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.653s] Level 5:colcon.colcon_core.verb:set package 'direction_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.653s] Level 5:colcon.colcon_core.verb:set package 'direction_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.653s] DEBUG:colcon.colcon_core.verb:Building package 'direction_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hvakil/ros2_ws/src/build/direction_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hvakil/ros2_ws/src/install/direction_interfaces', 'merge_install': False, 'path': '/home/hvakil/ros2_ws/src/field_autonomy/direction_interfaces', 'symlink_install': True, 'test_result_base': None}
+[0.654s] Level 5:colcon.colcon_core.verb:set package 'gps_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.654s] Level 5:colcon.colcon_core.verb:set package 'gps_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.654s] Level 5:colcon.colcon_core.verb:set package 'gps_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.654s] Level 5:colcon.colcon_core.verb:set package 'gps_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.654s] Level 5:colcon.colcon_core.verb:set package 'gps_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.654s] Level 5:colcon.colcon_core.verb:set package 'gps_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.654s] Level 5:colcon.colcon_core.verb:set package 'gps_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.654s] Level 5:colcon.colcon_core.verb:set package 'gps_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.654s] Level 5:colcon.colcon_core.verb:set package 'gps_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.654s] DEBUG:colcon.colcon_core.verb:Building package 'gps_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hvakil/ros2_ws/src/build/gps_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hvakil/ros2_ws/src/install/gps_interfaces', 'merge_install': False, 'path': '/home/hvakil/ros2_ws/src/field_autonomy/gps_interfaces', 'symlink_install': True, 'test_result_base': None}
+[0.655s] Level 5:colcon.colcon_core.verb:set package 'trail_finding' build argument 'cmake_args' from command line to 'None'
+[0.656s] Level 5:colcon.colcon_core.verb:set package 'trail_finding' build argument 'cmake_target' from command line to 'None'
+[0.656s] Level 5:colcon.colcon_core.verb:set package 'trail_finding' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.656s] Level 5:colcon.colcon_core.verb:set package 'trail_finding' build argument 'cmake_clean_cache' from command line to 'False'
+[0.656s] Level 5:colcon.colcon_core.verb:set package 'trail_finding' build argument 'cmake_clean_first' from command line to 'False'
+[0.656s] Level 5:colcon.colcon_core.verb:set package 'trail_finding' build argument 'cmake_force_configure' from command line to 'False'
+[0.656s] Level 5:colcon.colcon_core.verb:set package 'trail_finding' build argument 'ament_cmake_args' from command line to 'None'
+[0.656s] Level 5:colcon.colcon_core.verb:set package 'trail_finding' build argument 'catkin_cmake_args' from command line to 'None'
+[0.656s] Level 5:colcon.colcon_core.verb:set package 'trail_finding' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.656s] DEBUG:colcon.colcon_core.verb:Building package 'trail_finding' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hvakil/ros2_ws/src/build/trail_finding', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hvakil/ros2_ws/src/install/trail_finding', 'merge_install': False, 'path': '/home/hvakil/ros2_ws/src/field_autonomy/trail_finding', 'symlink_install': True, 'test_result_base': None}
+[0.657s] Level 5:colcon.colcon_core.verb:set package 'vel_calculator' build argument 'cmake_args' from command line to 'None'
+[0.657s] Level 5:colcon.colcon_core.verb:set package 'vel_calculator' build argument 'cmake_target' from command line to 'None'
+[0.657s] Level 5:colcon.colcon_core.verb:set package 'vel_calculator' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.657s] Level 5:colcon.colcon_core.verb:set package 'vel_calculator' build argument 'cmake_clean_cache' from command line to 'False'
+[0.657s] Level 5:colcon.colcon_core.verb:set package 'vel_calculator' build argument 'cmake_clean_first' from command line to 'False'
+[0.657s] Level 5:colcon.colcon_core.verb:set package 'vel_calculator' build argument 'cmake_force_configure' from command line to 'False'
+[0.657s] Level 5:colcon.colcon_core.verb:set package 'vel_calculator' build argument 'ament_cmake_args' from command line to 'None'
+[0.657s] Level 5:colcon.colcon_core.verb:set package 'vel_calculator' build argument 'catkin_cmake_args' from command line to 'None'
+[0.657s] Level 5:colcon.colcon_core.verb:set package 'vel_calculator' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.657s] DEBUG:colcon.colcon_core.verb:Building package 'vel_calculator' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hvakil/ros2_ws/src/build/vel_calculator', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hvakil/ros2_ws/src/install/vel_calculator', 'merge_install': False, 'path': '/home/hvakil/ros2_ws/src/field_autonomy/vel_calculator', 'symlink_install': True, 'test_result_base': None}
+[0.659s] Level 5:colcon.colcon_core.verb:set package 'write_to_tractor' build argument 'cmake_args' from command line to 'None'
+[0.659s] Level 5:colcon.colcon_core.verb:set package 'write_to_tractor' build argument 'cmake_target' from command line to 'None'
+[0.659s] Level 5:colcon.colcon_core.verb:set package 'write_to_tractor' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.659s] Level 5:colcon.colcon_core.verb:set package 'write_to_tractor' build argument 'cmake_clean_cache' from command line to 'False'
+[0.659s] Level 5:colcon.colcon_core.verb:set package 'write_to_tractor' build argument 'cmake_clean_first' from command line to 'False'
+[0.659s] Level 5:colcon.colcon_core.verb:set package 'write_to_tractor' build argument 'cmake_force_configure' from command line to 'False'
+[0.659s] Level 5:colcon.colcon_core.verb:set package 'write_to_tractor' build argument 'ament_cmake_args' from command line to 'None'
+[0.659s] Level 5:colcon.colcon_core.verb:set package 'write_to_tractor' build argument 'catkin_cmake_args' from command line to 'None'
+[0.659s] Level 5:colcon.colcon_core.verb:set package 'write_to_tractor' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.659s] DEBUG:colcon.colcon_core.verb:Building package 'write_to_tractor' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hvakil/ros2_ws/src/build/write_to_tractor', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hvakil/ros2_ws/src/install/write_to_tractor', 'merge_install': False, 'path': '/home/hvakil/ros2_ws/src/tractor/write_to_tractor', 'symlink_install': True, 'test_result_base': None}
+[0.660s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.664s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.665s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/hvakil/ros2_ws/src/field_autonomy/arduino/arduino_ros' with build type 'ament_python'
+[0.665s] Level 1:colcon.colcon_core.shell:create_environment_hook('arduino_ros', 'ament_prefix_path')
+[0.673s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.673s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hvakil/ros2_ws/src/install/arduino_ros/share/arduino_ros/hook/ament_prefix_path.ps1'
+[0.673s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hvakil/ros2_ws/src/install/arduino_ros/share/arduino_ros/hook/ament_prefix_path.dsv'
+[0.674s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hvakil/ros2_ws/src/install/arduino_ros/share/arduino_ros/hook/ament_prefix_path.sh'
+[0.676s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.676s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.704s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/hvakil/ros2_ws/src/field_autonomy/arkit_data_streamer' with build type 'ament_python'
+[0.704s] Level 1:colcon.colcon_core.shell:create_environment_hook('arkit_data_streamer', 'ament_prefix_path')
+[0.706s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hvakil/ros2_ws/src/install/arkit_data_streamer/share/arkit_data_streamer/hook/ament_prefix_path.ps1'
+[0.707s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hvakil/ros2_ws/src/install/arkit_data_streamer/share/arkit_data_streamer/hook/ament_prefix_path.dsv'
+[0.707s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hvakil/ros2_ws/src/install/arkit_data_streamer/share/arkit_data_streamer/hook/ament_prefix_path.sh'
+[0.710s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.710s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.739s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/hvakil/ros2_ws/src/field_autonomy/direction_interfaces' with build type 'ament_cmake'
+[0.739s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/hvakil/ros2_ws/src/field_autonomy/direction_interfaces'
+[0.741s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.741s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.771s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/hvakil/ros2_ws/src/field_autonomy/gps_interfaces' with build type 'ament_cmake'
+[0.771s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/hvakil/ros2_ws/src/field_autonomy/gps_interfaces'
+[0.773s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.773s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.802s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/hvakil/ros2_ws/src/field_autonomy/trail_finding' with build type 'ament_python'
+[0.803s] Level 1:colcon.colcon_core.shell:create_environment_hook('trail_finding', 'ament_prefix_path')
+[0.805s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hvakil/ros2_ws/src/install/trail_finding/share/trail_finding/hook/ament_prefix_path.ps1'
+[0.805s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hvakil/ros2_ws/src/install/trail_finding/share/trail_finding/hook/ament_prefix_path.dsv'
+[0.805s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hvakil/ros2_ws/src/install/trail_finding/share/trail_finding/hook/ament_prefix_path.sh'
+[0.808s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.808s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.837s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/hvakil/ros2_ws/src/field_autonomy/vel_calculator' with build type 'ament_python'
+[0.837s] Level 1:colcon.colcon_core.shell:create_environment_hook('vel_calculator', 'ament_prefix_path')
+[0.839s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hvakil/ros2_ws/src/install/vel_calculator/share/vel_calculator/hook/ament_prefix_path.ps1'
+[0.840s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hvakil/ros2_ws/src/install/vel_calculator/share/vel_calculator/hook/ament_prefix_path.dsv'
+[0.840s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hvakil/ros2_ws/src/install/vel_calculator/share/vel_calculator/hook/ament_prefix_path.sh'
+[0.843s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.844s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.875s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/hvakil/ros2_ws/src/tractor/write_to_tractor' with build type 'ament_python'
+[0.875s] Level 1:colcon.colcon_core.shell:create_environment_hook('write_to_tractor', 'ament_prefix_path')
+[0.877s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hvakil/ros2_ws/src/install/write_to_tractor/share/write_to_tractor/hook/ament_prefix_path.ps1'
+[0.878s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hvakil/ros2_ws/src/install/write_to_tractor/share/write_to_tractor/hook/ament_prefix_path.dsv'
+[0.878s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hvakil/ros2_ws/src/install/write_to_tractor/share/write_to_tractor/hook/ament_prefix_path.sh'
+[0.881s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.881s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.358s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/hvakil/ros2_ws/src/field_autonomy/arduino/arduino_ros'
+[1.360s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.360s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.842s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/hvakil/ros2_ws/src/field_autonomy/arkit_data_streamer'
+[1.845s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.845s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.879s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hvakil/ros2_ws/src/build/direction_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hvakil/ros2_ws/install/write_to_tractor:/home/hvakil/ros2_humble/install/rqt_bag_plugins:/home/hvakil/ros2_humble/install/rqt_bag:/home/hvakil/ros2_humble/install/ros2bag:/home/hvakil/ros2_humble/install/tracetools_test:/home/hvakil/ros2_humble/install/tracetools_launch:/home/hvakil/ros2_humble/install/topic_monitor:/home/hvakil/ros2_humble/install/tf2_tools:/home/hvakil/ros2_humble/install/examples_tf2_py:/home/hvakil/ros2_humble/install/tf2_ros_py:/home/hvakil/ros2_humble/install/sros2:/home/hvakil/ros2_humble/install/rqt_topic:/home/hvakil/ros2_humble/install/rqt_srv:/home/hvakil/ros2_humble/install/rqt_shell:/home/hvakil/ros2_humble/install/rqt_service_caller:/home/hvakil/ros2_humble/install/rqt_reconfigure:/home/hvakil/ros2_humble/install/rqt_py_console:/home/hvakil/ros2_humble/install/rqt_publisher:/home/hvakil/ros2_humble/install/rqt_plot:/home/hvakil/ros2_humble/install/rqt_action:/home/hvakil/ros2_humble/install/rqt_msg:/home/hvakil/ros2_humble/install/rqt_console:/home/hvakil/ros2_humble/install/rqt:/home/hvakil/ros2_humble/install/rqt_graph:/home/hvakil/ros2_humble/install/rqt_gui_py:/home/hvakil/ros2_humble/install/rqt_gui:/home/hvakil/ros2_humble/install/ros2trace:/home/hvakil/ros2_humble/install/ros2topic:/home/hvakil/ros2_humble/install/ros2test:/home/hvakil/ros2_humble/install/ros2component:/home/hvakil/ros2_humble/install/ros2param:/home/hvakil/ros2_humble/install/ros2lifecycle:/home/hvakil/ros2_humble/install/ros2service:/home/hvakil/ros2_humble/install/ros2run:/home/hvakil/ros2_humble/install/ros2launch:/home/hvakil/ros2_humble/install/ros2pkg:/home/hvakil/ros2_humble/install/ros2node:/home/hvakil/ros2_humble/install/ros2multicast:/home/hvakil/ros2_humble/install/ros2interface:/home/hvakil/ros2_humble/install/ros2doctor:/home/hvakil/ros2_humble/install/ros2action:/home/hvakil/ros2_humble/install/ros2cli:/home/hvakil/ros2_humble/install/quality_of_service_demo_py:/home/hvakil/ros2_humble/install/lifecycle_py:/home/hvakil/ros2_humble/install/launch_testing_ros:/home/hvakil/ros2_humble/install/launch_ros:/home/hvakil/ros2_humble/install/examples_rclpy_pointcloud_publisher:/home/hvakil/ros2_humble/install/examples_rclpy_minimal_subscriber:/home/hvakil/ros2_humble/install/examples_rclpy_minimal_service:/home/hvakil/ros2_humble/install/examples_rclpy_minimal_publisher:/home/hvakil/ros2_humble/install/examples_rclpy_minimal_client:/home/hvakil/ros2_humble/install/examples_rclpy_minimal_action_server:/home/hvakil/ros2_humble/install/examples_rclpy_minimal_action_client:/home/hvakil/ros2_humble/install/examples_rclpy_guard_conditions:/home/hvakil/ros2_humble/install/examples_rclpy_executors:/home/hvakil/ros2_humble/install/demo_nodes_py:/home/hvakil/ros2_humble/install/action_tutorials_py:/home/hvakil/ros2_humble/install/ament_uncrustify:/home/hvakil/ros2_humble/install/tracetools_trace:/home/hvakil/ros2_humble/install/tracetools_read:/home/hvakil/ros2_humble/install/test_tracetools_launch:/home/hvakil/ros2_humble/install/test_launch_ros:/home/hvakil/ros2_humble/install/sensor_msgs_py:/home/hvakil/ros2_humble/install/rpyutils:/home/hvakil/ros2_humble/install/rosidl_runtime_py:/home/hvakil/ros2_humble/install/rosidl_cli:/home/hvakil/ros2_humble/install/launch_pytest:/home/hvakil/ros2_humble/install/launch_testing:/home/hvakil/ros2_humble/install/launch_yaml:/home/hvakil/ros2_humble/install/launch_xml:/home/hvakil/ros2_humble/install/launch:/home/hvakil/ros2_humble/install/osrf_pycommon:/home/hvakil/ros2_humble/install/launch_testing_examples:/home/hvakil/ros2_humble/install/domain_coordinator:/home/hvakil/ros2_humble/install/ament_xmllint:/home/hvakil/ros2_humble/install/ament_pyflakes:/home/hvakil/ros2_humble/install/ament_pycodestyle:/home/hvakil/ros2_humble/install/ament_pep257:/home/hvakil/ros2_humble/install/ament_pclint:/home/hvakil/ros2_humble/install/ament_package:/home/hvakil/ros2_humble/install/ament_mypy:/home/hvakil/ros2_humble/install/ament_lint_cmake:/home/hvakil/ros2_humble/install/ament_flake8:/home/hvakil/ros2_humble/install/ament_copyright:/home/hvakil/ros2_humble/install/ament_lint:/home/hvakil/ros2_humble/install/ament_index_python:/home/hvakil/ros2_humble/install/ament_cpplint:/home/hvakil/ros2_humble/install/ament_cppcheck:/home/hvakil/ros2_humble/install/ament_clang_tidy:/home/hvakil/ros2_humble/install/ament_clang_format /usr/bin/cmake --build /home/hvakil/ros2_ws/src/build/direction_interfaces -- -j12 -l12
+[1.890s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hvakil/ros2_ws/src/build/gps_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hvakil/ros2_ws/install/write_to_tractor:/home/hvakil/ros2_humble/install/rqt_bag_plugins:/home/hvakil/ros2_humble/install/rqt_bag:/home/hvakil/ros2_humble/install/ros2bag:/home/hvakil/ros2_humble/install/tracetools_test:/home/hvakil/ros2_humble/install/tracetools_launch:/home/hvakil/ros2_humble/install/topic_monitor:/home/hvakil/ros2_humble/install/tf2_tools:/home/hvakil/ros2_humble/install/examples_tf2_py:/home/hvakil/ros2_humble/install/tf2_ros_py:/home/hvakil/ros2_humble/install/sros2:/home/hvakil/ros2_humble/install/rqt_topic:/home/hvakil/ros2_humble/install/rqt_srv:/home/hvakil/ros2_humble/install/rqt_shell:/home/hvakil/ros2_humble/install/rqt_service_caller:/home/hvakil/ros2_humble/install/rqt_reconfigure:/home/hvakil/ros2_humble/install/rqt_py_console:/home/hvakil/ros2_humble/install/rqt_publisher:/home/hvakil/ros2_humble/install/rqt_plot:/home/hvakil/ros2_humble/install/rqt_action:/home/hvakil/ros2_humble/install/rqt_msg:/home/hvakil/ros2_humble/install/rqt_console:/home/hvakil/ros2_humble/install/rqt:/home/hvakil/ros2_humble/install/rqt_graph:/home/hvakil/ros2_humble/install/rqt_gui_py:/home/hvakil/ros2_humble/install/rqt_gui:/home/hvakil/ros2_humble/install/ros2trace:/home/hvakil/ros2_humble/install/ros2topic:/home/hvakil/ros2_humble/install/ros2test:/home/hvakil/ros2_humble/install/ros2component:/home/hvakil/ros2_humble/install/ros2param:/home/hvakil/ros2_humble/install/ros2lifecycle:/home/hvakil/ros2_humble/install/ros2service:/home/hvakil/ros2_humble/install/ros2run:/home/hvakil/ros2_humble/install/ros2launch:/home/hvakil/ros2_humble/install/ros2pkg:/home/hvakil/ros2_humble/install/ros2node:/home/hvakil/ros2_humble/install/ros2multicast:/home/hvakil/ros2_humble/install/ros2interface:/home/hvakil/ros2_humble/install/ros2doctor:/home/hvakil/ros2_humble/install/ros2action:/home/hvakil/ros2_humble/install/ros2cli:/home/hvakil/ros2_humble/install/quality_of_service_demo_py:/home/hvakil/ros2_humble/install/lifecycle_py:/home/hvakil/ros2_humble/install/launch_testing_ros:/home/hvakil/ros2_humble/install/launch_ros:/home/hvakil/ros2_humble/install/examples_rclpy_pointcloud_publisher:/home/hvakil/ros2_humble/install/examples_rclpy_minimal_subscriber:/home/hvakil/ros2_humble/install/examples_rclpy_minimal_service:/home/hvakil/ros2_humble/install/examples_rclpy_minimal_publisher:/home/hvakil/ros2_humble/install/examples_rclpy_minimal_client:/home/hvakil/ros2_humble/install/examples_rclpy_minimal_action_server:/home/hvakil/ros2_humble/install/examples_rclpy_minimal_action_client:/home/hvakil/ros2_humble/install/examples_rclpy_guard_conditions:/home/hvakil/ros2_humble/install/examples_rclpy_executors:/home/hvakil/ros2_humble/install/demo_nodes_py:/home/hvakil/ros2_humble/install/action_tutorials_py:/home/hvakil/ros2_humble/install/ament_uncrustify:/home/hvakil/ros2_humble/install/tracetools_trace:/home/hvakil/ros2_humble/install/tracetools_read:/home/hvakil/ros2_humble/install/test_tracetools_launch:/home/hvakil/ros2_humble/install/test_launch_ros:/home/hvakil/ros2_humble/install/sensor_msgs_py:/home/hvakil/ros2_humble/install/rpyutils:/home/hvakil/ros2_humble/install/rosidl_runtime_py:/home/hvakil/ros2_humble/install/rosidl_cli:/home/hvakil/ros2_humble/install/launch_pytest:/home/hvakil/ros2_humble/install/launch_testing:/home/hvakil/ros2_humble/install/launch_yaml:/home/hvakil/ros2_humble/install/launch_xml:/home/hvakil/ros2_humble/install/launch:/home/hvakil/ros2_humble/install/osrf_pycommon:/home/hvakil/ros2_humble/install/launch_testing_examples:/home/hvakil/ros2_humble/install/domain_coordinator:/home/hvakil/ros2_humble/install/ament_xmllint:/home/hvakil/ros2_humble/install/ament_pyflakes:/home/hvakil/ros2_humble/install/ament_pycodestyle:/home/hvakil/ros2_humble/install/ament_pep257:/home/hvakil/ros2_humble/install/ament_pclint:/home/hvakil/ros2_humble/install/ament_package:/home/hvakil/ros2_humble/install/ament_mypy:/home/hvakil/ros2_humble/install/ament_lint_cmake:/home/hvakil/ros2_humble/install/ament_flake8:/home/hvakil/ros2_humble/install/ament_copyright:/home/hvakil/ros2_humble/install/ament_lint:/home/hvakil/ros2_humble/install/ament_index_python:/home/hvakil/ros2_humble/install/ament_cpplint:/home/hvakil/ros2_humble/install/ament_cppcheck:/home/hvakil/ros2_humble/install/ament_clang_tidy:/home/hvakil/ros2_humble/install/ament_clang_format /usr/bin/cmake --build /home/hvakil/ros2_ws/src/build/gps_interfaces -- -j12 -l12
+[2.695s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/hvakil/ros2_ws/src/field_autonomy/trail_finding'
+[2.698s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.698s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.251s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/hvakil/ros2_ws/src/field_autonomy/vel_calculator'
+[3.253s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.253s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.293s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hvakil/ros2_ws/src/build/direction_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hvakil/ros2_ws/install/write_to_tractor:/home/hvakil/ros2_humble/install/rqt_bag_plugins:/home/hvakil/ros2_humble/install/rqt_bag:/home/hvakil/ros2_humble/install/ros2bag:/home/hvakil/ros2_humble/install/tracetools_test:/home/hvakil/ros2_humble/install/tracetools_launch:/home/hvakil/ros2_humble/install/topic_monitor:/home/hvakil/ros2_humble/install/tf2_tools:/home/hvakil/ros2_humble/install/examples_tf2_py:/home/hvakil/ros2_humble/install/tf2_ros_py:/home/hvakil/ros2_humble/install/sros2:/home/hvakil/ros2_humble/install/rqt_topic:/home/hvakil/ros2_humble/install/rqt_srv:/home/hvakil/ros2_humble/install/rqt_shell:/home/hvakil/ros2_humble/install/rqt_service_caller:/home/hvakil/ros2_humble/install/rqt_reconfigure:/home/hvakil/ros2_humble/install/rqt_py_console:/home/hvakil/ros2_humble/install/rqt_publisher:/home/hvakil/ros2_humble/install/rqt_plot:/home/hvakil/ros2_humble/install/rqt_action:/home/hvakil/ros2_humble/install/rqt_msg:/home/hvakil/ros2_humble/install/rqt_console:/home/hvakil/ros2_humble/install/rqt:/home/hvakil/ros2_humble/install/rqt_graph:/home/hvakil/ros2_humble/install/rqt_gui_py:/home/hvakil/ros2_humble/install/rqt_gui:/home/hvakil/ros2_humble/install/ros2trace:/home/hvakil/ros2_humble/install/ros2topic:/home/hvakil/ros2_humble/install/ros2test:/home/hvakil/ros2_humble/install/ros2component:/home/hvakil/ros2_humble/install/ros2param:/home/hvakil/ros2_humble/install/ros2lifecycle:/home/hvakil/ros2_humble/install/ros2service:/home/hvakil/ros2_humble/install/ros2run:/home/hvakil/ros2_humble/install/ros2launch:/home/hvakil/ros2_humble/install/ros2pkg:/home/hvakil/ros2_humble/install/ros2node:/home/hvakil/ros2_humble/install/ros2multicast:/home/hvakil/ros2_humble/install/ros2interface:/home/hvakil/ros2_humble/install/ros2doctor:/home/hvakil/ros2_humble/install/ros2action:/home/hvakil/ros2_humble/install/ros2cli:/home/hvakil/ros2_humble/install/quality_of_service_demo_py:/home/hvakil/ros2_humble/install/lifecycle_py:/home/hvakil/ros2_humble/install/launch_testing_ros:/home/hvakil/ros2_humble/install/launch_ros:/home/hvakil/ros2_humble/install/examples_rclpy_pointcloud_publisher:/home/hvakil/ros2_humble/install/examples_rclpy_minimal_subscriber:/home/hvakil/ros2_humble/install/examples_rclpy_minimal_service:/home/hvakil/ros2_humble/install/examples_rclpy_minimal_publisher:/home/hvakil/ros2_humble/install/examples_rclpy_minimal_client:/home/hvakil/ros2_humble/install/examples_rclpy_minimal_action_server:/home/hvakil/ros2_humble/install/examples_rclpy_minimal_action_client:/home/hvakil/ros2_humble/install/examples_rclpy_guard_conditions:/home/hvakil/ros2_humble/install/examples_rclpy_executors:/home/hvakil/ros2_humble/install/demo_nodes_py:/home/hvakil/ros2_humble/install/action_tutorials_py:/home/hvakil/ros2_humble/install/ament_uncrustify:/home/hvakil/ros2_humble/install/tracetools_trace:/home/hvakil/ros2_humble/install/tracetools_read:/home/hvakil/ros2_humble/install/test_tracetools_launch:/home/hvakil/ros2_humble/install/test_launch_ros:/home/hvakil/ros2_humble/install/sensor_msgs_py:/home/hvakil/ros2_humble/install/rpyutils:/home/hvakil/ros2_humble/install/rosidl_runtime_py:/home/hvakil/ros2_humble/install/rosidl_cli:/home/hvakil/ros2_humble/install/launch_pytest:/home/hvakil/ros2_humble/install/launch_testing:/home/hvakil/ros2_humble/install/launch_yaml:/home/hvakil/ros2_humble/install/launch_xml:/home/hvakil/ros2_humble/install/launch:/home/hvakil/ros2_humble/install/osrf_pycommon:/home/hvakil/ros2_humble/install/launch_testing_examples:/home/hvakil/ros2_humble/install/domain_coordinator:/home/hvakil/ros2_humble/install/ament_xmllint:/home/hvakil/ros2_humble/install/ament_pyflakes:/home/hvakil/ros2_humble/install/ament_pycodestyle:/home/hvakil/ros2_humble/install/ament_pep257:/home/hvakil/ros2_humble/install/ament_pclint:/home/hvakil/ros2_humble/install/ament_package:/home/hvakil/ros2_humble/install/ament_mypy:/home/hvakil/ros2_humble/install/ament_lint_cmake:/home/hvakil/ros2_humble/install/ament_flake8:/home/hvakil/ros2_humble/install/ament_copyright:/home/hvakil/ros2_humble/install/ament_lint:/home/hvakil/ros2_humble/install/ament_index_python:/home/hvakil/ros2_humble/install/ament_cpplint:/home/hvakil/ros2_humble/install/ament_cppcheck:/home/hvakil/ros2_humble/install/ament_clang_tidy:/home/hvakil/ros2_humble/install/ament_clang_format /usr/bin/cmake --build /home/hvakil/ros2_ws/src/build/direction_interfaces -- -j12 -l12
+[3.294s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hvakil/ros2_ws/src/build/gps_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hvakil/ros2_ws/install/write_to_tractor:/home/hvakil/ros2_humble/install/rqt_bag_plugins:/home/hvakil/ros2_humble/install/rqt_bag:/home/hvakil/ros2_humble/install/ros2bag:/home/hvakil/ros2_humble/install/tracetools_test:/home/hvakil/ros2_humble/install/tracetools_launch:/home/hvakil/ros2_humble/install/topic_monitor:/home/hvakil/ros2_humble/install/tf2_tools:/home/hvakil/ros2_humble/install/examples_tf2_py:/home/hvakil/ros2_humble/install/tf2_ros_py:/home/hvakil/ros2_humble/install/sros2:/home/hvakil/ros2_humble/install/rqt_topic:/home/hvakil/ros2_humble/install/rqt_srv:/home/hvakil/ros2_humble/install/rqt_shell:/home/hvakil/ros2_humble/install/rqt_service_caller:/home/hvakil/ros2_humble/install/rqt_reconfigure:/home/hvakil/ros2_humble/install/rqt_py_console:/home/hvakil/ros2_humble/install/rqt_publisher:/home/hvakil/ros2_humble/install/rqt_plot:/home/hvakil/ros2_humble/install/rqt_action:/home/hvakil/ros2_humble/install/rqt_msg:/home/hvakil/ros2_humble/install/rqt_console:/home/hvakil/ros2_humble/install/rqt:/home/hvakil/ros2_humble/install/rqt_graph:/home/hvakil/ros2_humble/install/rqt_gui_py:/home/hvakil/ros2_humble/install/rqt_gui:/home/hvakil/ros2_humble/install/ros2trace:/home/hvakil/ros2_humble/install/ros2topic:/home/hvakil/ros2_humble/install/ros2test:/home/hvakil/ros2_humble/install/ros2component:/home/hvakil/ros2_humble/install/ros2param:/home/hvakil/ros2_humble/install/ros2lifecycle:/home/hvakil/ros2_humble/install/ros2service:/home/hvakil/ros2_humble/install/ros2run:/home/hvakil/ros2_humble/install/ros2launch:/home/hvakil/ros2_humble/install/ros2pkg:/home/hvakil/ros2_humble/install/ros2node:/home/hvakil/ros2_humble/install/ros2multicast:/home/hvakil/ros2_humble/install/ros2interface:/home/hvakil/ros2_humble/install/ros2doctor:/home/hvakil/ros2_humble/install/ros2action:/home/hvakil/ros2_humble/install/ros2cli:/home/hvakil/ros2_humble/install/quality_of_service_demo_py:/home/hvakil/ros2_humble/install/lifecycle_py:/home/hvakil/ros2_humble/install/launch_testing_ros:/home/hvakil/ros2_humble/install/launch_ros:/home/hvakil/ros2_humble/install/examples_rclpy_pointcloud_publisher:/home/hvakil/ros2_humble/install/examples_rclpy_minimal_subscriber:/home/hvakil/ros2_humble/install/examples_rclpy_minimal_service:/home/hvakil/ros2_humble/install/examples_rclpy_minimal_publisher:/home/hvakil/ros2_humble/install/examples_rclpy_minimal_client:/home/hvakil/ros2_humble/install/examples_rclpy_minimal_action_server:/home/hvakil/ros2_humble/install/examples_rclpy_minimal_action_client:/home/hvakil/ros2_humble/install/examples_rclpy_guard_conditions:/home/hvakil/ros2_humble/install/examples_rclpy_executors:/home/hvakil/ros2_humble/install/demo_nodes_py:/home/hvakil/ros2_humble/install/action_tutorials_py:/home/hvakil/ros2_humble/install/ament_uncrustify:/home/hvakil/ros2_humble/install/tracetools_trace:/home/hvakil/ros2_humble/install/tracetools_read:/home/hvakil/ros2_humble/install/test_tracetools_launch:/home/hvakil/ros2_humble/install/test_launch_ros:/home/hvakil/ros2_humble/install/sensor_msgs_py:/home/hvakil/ros2_humble/install/rpyutils:/home/hvakil/ros2_humble/install/rosidl_runtime_py:/home/hvakil/ros2_humble/install/rosidl_cli:/home/hvakil/ros2_humble/install/launch_pytest:/home/hvakil/ros2_humble/install/launch_testing:/home/hvakil/ros2_humble/install/launch_yaml:/home/hvakil/ros2_humble/install/launch_xml:/home/hvakil/ros2_humble/install/launch:/home/hvakil/ros2_humble/install/osrf_pycommon:/home/hvakil/ros2_humble/install/launch_testing_examples:/home/hvakil/ros2_humble/install/domain_coordinator:/home/hvakil/ros2_humble/install/ament_xmllint:/home/hvakil/ros2_humble/install/ament_pyflakes:/home/hvakil/ros2_humble/install/ament_pycodestyle:/home/hvakil/ros2_humble/install/ament_pep257:/home/hvakil/ros2_humble/install/ament_pclint:/home/hvakil/ros2_humble/install/ament_package:/home/hvakil/ros2_humble/install/ament_mypy:/home/hvakil/ros2_humble/install/ament_lint_cmake:/home/hvakil/ros2_humble/install/ament_flake8:/home/hvakil/ros2_humble/install/ament_copyright:/home/hvakil/ros2_humble/install/ament_lint:/home/hvakil/ros2_humble/install/ament_index_python:/home/hvakil/ros2_humble/install/ament_cpplint:/home/hvakil/ros2_humble/install/ament_cppcheck:/home/hvakil/ros2_humble/install/ament_clang_tidy:/home/hvakil/ros2_humble/install/ament_clang_format /usr/bin/cmake --build /home/hvakil/ros2_ws/src/build/gps_interfaces -- -j12 -l12
+[3.795s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/hvakil/ros2_ws/src/tractor/write_to_tractor'
+[3.797s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.797s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.867s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hvakil/ros2_ws/src/build/direction_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hvakil/ros2_ws/install/write_to_tractor:/home/hvakil/ros2_humble/install/rqt_bag_plugins:/home/hvakil/ros2_humble/install/rqt_bag:/home/hvakil/ros2_humble/install/ros2bag:/home/hvakil/ros2_humble/install/tracetools_test:/home/hvakil/ros2_humble/install/tracetools_launch:/home/hvakil/ros2_humble/install/topic_monitor:/home/hvakil/ros2_humble/install/tf2_tools:/home/hvakil/ros2_humble/install/examples_tf2_py:/home/hvakil/ros2_humble/install/tf2_ros_py:/home/hvakil/ros2_humble/install/sros2:/home/hvakil/ros2_humble/install/rqt_topic:/home/hvakil/ros2_humble/install/rqt_srv:/home/hvakil/ros2_humble/install/rqt_shell:/home/hvakil/ros2_humble/install/rqt_service_caller:/home/hvakil/ros2_humble/install/rqt_reconfigure:/home/hvakil/ros2_humble/install/rqt_py_console:/home/hvakil/ros2_humble/install/rqt_publisher:/home/hvakil/ros2_humble/install/rqt_plot:/home/hvakil/ros2_humble/install/rqt_action:/home/hvakil/ros2_humble/install/rqt_msg:/home/hvakil/ros2_humble/install/rqt_console:/home/hvakil/ros2_humble/install/rqt:/home/hvakil/ros2_humble/install/rqt_graph:/home/hvakil/ros2_humble/install/rqt_gui_py:/home/hvakil/ros2_humble/install/rqt_gui:/home/hvakil/ros2_humble/install/ros2trace:/home/hvakil/ros2_humble/install/ros2topic:/home/hvakil/ros2_humble/install/ros2test:/home/hvakil/ros2_humble/install/ros2component:/home/hvakil/ros2_humble/install/ros2param:/home/hvakil/ros2_humble/install/ros2lifecycle:/home/hvakil/ros2_humble/install/ros2service:/home/hvakil/ros2_humble/install/ros2run:/home/hvakil/ros2_humble/install/ros2launch:/home/hvakil/ros2_humble/install/ros2pkg:/home/hvakil/ros2_humble/install/ros2node:/home/hvakil/ros2_humble/install/ros2multicast:/home/hvakil/ros2_humble/install/ros2interface:/home/hvakil/ros2_humble/install/ros2doctor:/home/hvakil/ros2_humble/install/ros2action:/home/hvakil/ros2_humble/install/ros2cli:/home/hvakil/ros2_humble/install/quality_of_service_demo_py:/home/hvakil/ros2_humble/install/lifecycle_py:/home/hvakil/ros2_humble/install/launch_testing_ros:/home/hvakil/ros2_humble/install/launch_ros:/home/hvakil/ros2_humble/install/examples_rclpy_pointcloud_publisher:/home/hvakil/ros2_humble/install/examples_rclpy_minimal_subscriber:/home/hvakil/ros2_humble/install/examples_rclpy_minimal_service:/home/hvakil/ros2_humble/install/examples_rclpy_minimal_publisher:/home/hvakil/ros2_humble/install/examples_rclpy_minimal_client:/home/hvakil/ros2_humble/install/examples_rclpy_minimal_action_server:/home/hvakil/ros2_humble/install/examples_rclpy_minimal_action_client:/home/hvakil/ros2_humble/install/examples_rclpy_guard_conditions:/home/hvakil/ros2_humble/install/examples_rclpy_executors:/home/hvakil/ros2_humble/install/demo_nodes_py:/home/hvakil/ros2_humble/install/action_tutorials_py:/home/hvakil/ros2_humble/install/ament_uncrustify:/home/hvakil/ros2_humble/install/tracetools_trace:/home/hvakil/ros2_humble/install/tracetools_read:/home/hvakil/ros2_humble/install/test_tracetools_launch:/home/hvakil/ros2_humble/install/test_launch_ros:/home/hvakil/ros2_humble/install/sensor_msgs_py:/home/hvakil/ros2_humble/install/rpyutils:/home/hvakil/ros2_humble/install/rosidl_runtime_py:/home/hvakil/ros2_humble/install/rosidl_cli:/home/hvakil/ros2_humble/install/launch_pytest:/home/hvakil/ros2_humble/install/launch_testing:/home/hvakil/ros2_humble/install/launch_yaml:/home/hvakil/ros2_humble/install/launch_xml:/home/hvakil/ros2_humble/install/launch:/home/hvakil/ros2_humble/install/osrf_pycommon:/home/hvakil/ros2_humble/install/launch_testing_examples:/home/hvakil/ros2_humble/install/domain_coordinator:/home/hvakil/ros2_humble/install/ament_xmllint:/home/hvakil/ros2_humble/install/ament_pyflakes:/home/hvakil/ros2_humble/install/ament_pycodestyle:/home/hvakil/ros2_humble/install/ament_pep257:/home/hvakil/ros2_humble/install/ament_pclint:/home/hvakil/ros2_humble/install/ament_package:/home/hvakil/ros2_humble/install/ament_mypy:/home/hvakil/ros2_humble/install/ament_lint_cmake:/home/hvakil/ros2_humble/install/ament_flake8:/home/hvakil/ros2_humble/install/ament_copyright:/home/hvakil/ros2_humble/install/ament_lint:/home/hvakil/ros2_humble/install/ament_index_python:/home/hvakil/ros2_humble/install/ament_cpplint:/home/hvakil/ros2_humble/install/ament_cppcheck:/home/hvakil/ros2_humble/install/ament_clang_tidy:/home/hvakil/ros2_humble/install/ament_clang_format /usr/bin/cmake --install /home/hvakil/ros2_ws/src/build/direction_interfaces
+[3.870s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hvakil/ros2_ws/src/build/gps_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hvakil/ros2_ws/install/write_to_tractor:/home/hvakil/ros2_humble/install/rqt_bag_plugins:/home/hvakil/ros2_humble/install/rqt_bag:/home/hvakil/ros2_humble/install/ros2bag:/home/hvakil/ros2_humble/install/tracetools_test:/home/hvakil/ros2_humble/install/tracetools_launch:/home/hvakil/ros2_humble/install/topic_monitor:/home/hvakil/ros2_humble/install/tf2_tools:/home/hvakil/ros2_humble/install/examples_tf2_py:/home/hvakil/ros2_humble/install/tf2_ros_py:/home/hvakil/ros2_humble/install/sros2:/home/hvakil/ros2_humble/install/rqt_topic:/home/hvakil/ros2_humble/install/rqt_srv:/home/hvakil/ros2_humble/install/rqt_shell:/home/hvakil/ros2_humble/install/rqt_service_caller:/home/hvakil/ros2_humble/install/rqt_reconfigure:/home/hvakil/ros2_humble/install/rqt_py_console:/home/hvakil/ros2_humble/install/rqt_publisher:/home/hvakil/ros2_humble/install/rqt_plot:/home/hvakil/ros2_humble/install/rqt_action:/home/hvakil/ros2_humble/install/rqt_msg:/home/hvakil/ros2_humble/install/rqt_console:/home/hvakil/ros2_humble/install/rqt:/home/hvakil/ros2_humble/install/rqt_graph:/home/hvakil/ros2_humble/install/rqt_gui_py:/home/hvakil/ros2_humble/install/rqt_gui:/home/hvakil/ros2_humble/install/ros2trace:/home/hvakil/ros2_humble/install/ros2topic:/home/hvakil/ros2_humble/install/ros2test:/home/hvakil/ros2_humble/install/ros2component:/home/hvakil/ros2_humble/install/ros2param:/home/hvakil/ros2_humble/install/ros2lifecycle:/home/hvakil/ros2_humble/install/ros2service:/home/hvakil/ros2_humble/install/ros2run:/home/hvakil/ros2_humble/install/ros2launch:/home/hvakil/ros2_humble/install/ros2pkg:/home/hvakil/ros2_humble/install/ros2node:/home/hvakil/ros2_humble/install/ros2multicast:/home/hvakil/ros2_humble/install/ros2interface:/home/hvakil/ros2_humble/install/ros2doctor:/home/hvakil/ros2_humble/install/ros2action:/home/hvakil/ros2_humble/install/ros2cli:/home/hvakil/ros2_humble/install/quality_of_service_demo_py:/home/hvakil/ros2_humble/install/lifecycle_py:/home/hvakil/ros2_humble/install/launch_testing_ros:/home/hvakil/ros2_humble/install/launch_ros:/home/hvakil/ros2_humble/install/examples_rclpy_pointcloud_publisher:/home/hvakil/ros2_humble/install/examples_rclpy_minimal_subscriber:/home/hvakil/ros2_humble/install/examples_rclpy_minimal_service:/home/hvakil/ros2_humble/install/examples_rclpy_minimal_publisher:/home/hvakil/ros2_humble/install/examples_rclpy_minimal_client:/home/hvakil/ros2_humble/install/examples_rclpy_minimal_action_server:/home/hvakil/ros2_humble/install/examples_rclpy_minimal_action_client:/home/hvakil/ros2_humble/install/examples_rclpy_guard_conditions:/home/hvakil/ros2_humble/install/examples_rclpy_executors:/home/hvakil/ros2_humble/install/demo_nodes_py:/home/hvakil/ros2_humble/install/action_tutorials_py:/home/hvakil/ros2_humble/install/ament_uncrustify:/home/hvakil/ros2_humble/install/tracetools_trace:/home/hvakil/ros2_humble/install/tracetools_read:/home/hvakil/ros2_humble/install/test_tracetools_launch:/home/hvakil/ros2_humble/install/test_launch_ros:/home/hvakil/ros2_humble/install/sensor_msgs_py:/home/hvakil/ros2_humble/install/rpyutils:/home/hvakil/ros2_humble/install/rosidl_runtime_py:/home/hvakil/ros2_humble/install/rosidl_cli:/home/hvakil/ros2_humble/install/launch_pytest:/home/hvakil/ros2_humble/install/launch_testing:/home/hvakil/ros2_humble/install/launch_yaml:/home/hvakil/ros2_humble/install/launch_xml:/home/hvakil/ros2_humble/install/launch:/home/hvakil/ros2_humble/install/osrf_pycommon:/home/hvakil/ros2_humble/install/launch_testing_examples:/home/hvakil/ros2_humble/install/domain_coordinator:/home/hvakil/ros2_humble/install/ament_xmllint:/home/hvakil/ros2_humble/install/ament_pyflakes:/home/hvakil/ros2_humble/install/ament_pycodestyle:/home/hvakil/ros2_humble/install/ament_pep257:/home/hvakil/ros2_humble/install/ament_pclint:/home/hvakil/ros2_humble/install/ament_package:/home/hvakil/ros2_humble/install/ament_mypy:/home/hvakil/ros2_humble/install/ament_lint_cmake:/home/hvakil/ros2_humble/install/ament_flake8:/home/hvakil/ros2_humble/install/ament_copyright:/home/hvakil/ros2_humble/install/ament_lint:/home/hvakil/ros2_humble/install/ament_index_python:/home/hvakil/ros2_humble/install/ament_cpplint:/home/hvakil/ros2_humble/install/ament_cppcheck:/home/hvakil/ros2_humble/install/ament_clang_tidy:/home/hvakil/ros2_humble/install/ament_clang_format /usr/bin/cmake --install /home/hvakil/ros2_ws/src/build/gps_interfaces
+[4.438s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gps_interfaces)
+[4.443s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hvakil/ros2_ws/src/build/gps_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hvakil/ros2_ws/install/write_to_tractor:/home/hvakil/ros2_humble/install/rqt_bag_plugins:/home/hvakil/ros2_humble/install/rqt_bag:/home/hvakil/ros2_humble/install/ros2bag:/home/hvakil/ros2_humble/install/tracetools_test:/home/hvakil/ros2_humble/install/tracetools_launch:/home/hvakil/ros2_humble/install/topic_monitor:/home/hvakil/ros2_humble/install/tf2_tools:/home/hvakil/ros2_humble/install/examples_tf2_py:/home/hvakil/ros2_humble/install/tf2_ros_py:/home/hvakil/ros2_humble/install/sros2:/home/hvakil/ros2_humble/install/rqt_topic:/home/hvakil/ros2_humble/install/rqt_srv:/home/hvakil/ros2_humble/install/rqt_shell:/home/hvakil/ros2_humble/install/rqt_service_caller:/home/hvakil/ros2_humble/install/rqt_reconfigure:/home/hvakil/ros2_humble/install/rqt_py_console:/home/hvakil/ros2_humble/install/rqt_publisher:/home/hvakil/ros2_humble/install/rqt_plot:/home/hvakil/ros2_humble/install/rqt_action:/home/hvakil/ros2_humble/install/rqt_msg:/home/hvakil/ros2_humble/install/rqt_console:/home/hvakil/ros2_humble/install/rqt:/home/hvakil/ros2_humble/install/rqt_graph:/home/hvakil/ros2_humble/install/rqt_gui_py:/home/hvakil/ros2_humble/install/rqt_gui:/home/hvakil/ros2_humble/install/ros2trace:/home/hvakil/ros2_humble/install/ros2topic:/home/hvakil/ros2_humble/install/ros2test:/home/hvakil/ros2_humble/install/ros2component:/home/hvakil/ros2_humble/install/ros2param:/home/hvakil/ros2_humble/install/ros2lifecycle:/home/hvakil/ros2_humble/install/ros2service:/home/hvakil/ros2_humble/install/ros2run:/home/hvakil/ros2_humble/install/ros2launch:/home/hvakil/ros2_humble/install/ros2pkg:/home/hvakil/ros2_humble/install/ros2node:/home/hvakil/ros2_humble/install/ros2multicast:/home/hvakil/ros2_humble/install/ros2interface:/home/hvakil/ros2_humble/install/ros2doctor:/home/hvakil/ros2_humble/install/ros2action:/home/hvakil/ros2_humble/install/ros2cli:/home/hvakil/ros2_humble/install/quality_of_service_demo_py:/home/hvakil/ros2_humble/install/lifecycle_py:/home/hvakil/ros2_humble/install/launch_testing_ros:/home/hvakil/ros2_humble/install/launch_ros:/home/hvakil/ros2_humble/install/examples_rclpy_pointcloud_publisher:/home/hvakil/ros2_humble/install/examples_rclpy_minimal_subscriber:/home/hvakil/ros2_humble/install/examples_rclpy_minimal_service:/home/hvakil/ros2_humble/install/examples_rclpy_minimal_publisher:/home/hvakil/ros2_humble/install/examples_rclpy_minimal_client:/home/hvakil/ros2_humble/install/examples_rclpy_minimal_action_server:/home/hvakil/ros2_humble/install/examples_rclpy_minimal_action_client:/home/hvakil/ros2_humble/install/examples_rclpy_guard_conditions:/home/hvakil/ros2_humble/install/examples_rclpy_executors:/home/hvakil/ros2_humble/install/demo_nodes_py:/home/hvakil/ros2_humble/install/action_tutorials_py:/home/hvakil/ros2_humble/install/ament_uncrustify:/home/hvakil/ros2_humble/install/tracetools_trace:/home/hvakil/ros2_humble/install/tracetools_read:/home/hvakil/ros2_humble/install/test_tracetools_launch:/home/hvakil/ros2_humble/install/test_launch_ros:/home/hvakil/ros2_humble/install/sensor_msgs_py:/home/hvakil/ros2_humble/install/rpyutils:/home/hvakil/ros2_humble/install/rosidl_runtime_py:/home/hvakil/ros2_humble/install/rosidl_cli:/home/hvakil/ros2_humble/install/launch_pytest:/home/hvakil/ros2_humble/install/launch_testing:/home/hvakil/ros2_humble/install/launch_yaml:/home/hvakil/ros2_humble/install/launch_xml:/home/hvakil/ros2_humble/install/launch:/home/hvakil/ros2_humble/install/osrf_pycommon:/home/hvakil/ros2_humble/install/launch_testing_examples:/home/hvakil/ros2_humble/install/domain_coordinator:/home/hvakil/ros2_humble/install/ament_xmllint:/home/hvakil/ros2_humble/install/ament_pyflakes:/home/hvakil/ros2_humble/install/ament_pycodestyle:/home/hvakil/ros2_humble/install/ament_pep257:/home/hvakil/ros2_humble/install/ament_pclint:/home/hvakil/ros2_humble/install/ament_package:/home/hvakil/ros2_humble/install/ament_mypy:/home/hvakil/ros2_humble/install/ament_lint_cmake:/home/hvakil/ros2_humble/install/ament_flake8:/home/hvakil/ros2_humble/install/ament_copyright:/home/hvakil/ros2_humble/install/ament_lint:/home/hvakil/ros2_humble/install/ament_index_python:/home/hvakil/ros2_humble/install/ament_cpplint:/home/hvakil/ros2_humble/install/ament_cppcheck:/home/hvakil/ros2_humble/install/ament_clang_tidy:/home/hvakil/ros2_humble/install/ament_clang_format /usr/bin/cmake --install /home/hvakil/ros2_ws/src/build/gps_interfaces
+[4.476s] Level 1:colcon.colcon_core.environment:checking '/home/hvakil/ros2_ws/src/install/gps_interfaces' for CMake module files
+[4.478s] Level 1:colcon.colcon_core.environment:checking '/home/hvakil/ros2_ws/src/install/gps_interfaces' for CMake config files
+[4.479s] Level 1:colcon.colcon_core.shell:create_environment_hook('gps_interfaces', 'cmake_prefix_path')
+[4.486s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hvakil/ros2_ws/src/install/gps_interfaces/share/gps_interfaces/hook/cmake_prefix_path.ps1'
+[4.487s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hvakil/ros2_ws/src/install/gps_interfaces/share/gps_interfaces/hook/cmake_prefix_path.dsv'
+[4.488s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hvakil/ros2_ws/src/install/gps_interfaces/share/gps_interfaces/hook/cmake_prefix_path.sh'
+[4.489s] Level 1:colcon.colcon_core.environment:checking '/home/hvakil/ros2_ws/src/install/gps_interfaces/lib'
+[4.489s] Level 1:colcon.colcon_core.shell:create_environment_hook('gps_interfaces', 'ld_library_path_lib')
+[4.495s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hvakil/ros2_ws/src/install/gps_interfaces/share/gps_interfaces/hook/ld_library_path_lib.ps1'
+[4.496s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hvakil/ros2_ws/src/install/gps_interfaces/share/gps_interfaces/hook/ld_library_path_lib.dsv'
+[4.496s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hvakil/ros2_ws/src/install/gps_interfaces/share/gps_interfaces/hook/ld_library_path_lib.sh'
+[4.497s] Level 1:colcon.colcon_core.environment:checking '/home/hvakil/ros2_ws/src/install/gps_interfaces/bin'
+[4.497s] Level 1:colcon.colcon_core.environment:checking '/home/hvakil/ros2_ws/src/install/gps_interfaces/lib/pkgconfig/gps_interfaces.pc'
+[4.498s] Level 1:colcon.colcon_core.environment:checking '/home/hvakil/ros2_ws/src/install/gps_interfaces/lib/python3.10/site-packages'
+[4.498s] Level 1:colcon.colcon_core.environment:checking '/home/hvakil/ros2_ws/src/install/gps_interfaces/bin'
+[4.502s] INFO:colcon.colcon_core.shell:Creating package script '/home/hvakil/ros2_ws/src/install/gps_interfaces/share/gps_interfaces/package.ps1'
+[4.504s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hvakil/ros2_ws/src/install/gps_interfaces/share/gps_interfaces/package.dsv'
+[4.505s] INFO:colcon.colcon_core.shell:Creating package script '/home/hvakil/ros2_ws/src/install/gps_interfaces/share/gps_interfaces/package.sh'
+[4.506s] INFO:colcon.colcon_core.shell:Creating package script '/home/hvakil/ros2_ws/src/install/gps_interfaces/share/gps_interfaces/package.bash'
+[4.508s] INFO:colcon.colcon_core.shell:Creating package script '/home/hvakil/ros2_ws/src/install/gps_interfaces/share/gps_interfaces/package.zsh'
+[4.509s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hvakil/ros2_ws/src/install/gps_interfaces/share/colcon-core/packages/gps_interfaces)
+[4.512s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(direction_interfaces)
+[4.525s] Level 1:colcon.colcon_core.environment:checking '/home/hvakil/ros2_ws/src/install/direction_interfaces' for CMake module files
+[4.526s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hvakil/ros2_ws/src/build/direction_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hvakil/ros2_ws/install/write_to_tractor:/home/hvakil/ros2_humble/install/rqt_bag_plugins:/home/hvakil/ros2_humble/install/rqt_bag:/home/hvakil/ros2_humble/install/ros2bag:/home/hvakil/ros2_humble/install/tracetools_test:/home/hvakil/ros2_humble/install/tracetools_launch:/home/hvakil/ros2_humble/install/topic_monitor:/home/hvakil/ros2_humble/install/tf2_tools:/home/hvakil/ros2_humble/install/examples_tf2_py:/home/hvakil/ros2_humble/install/tf2_ros_py:/home/hvakil/ros2_humble/install/sros2:/home/hvakil/ros2_humble/install/rqt_topic:/home/hvakil/ros2_humble/install/rqt_srv:/home/hvakil/ros2_humble/install/rqt_shell:/home/hvakil/ros2_humble/install/rqt_service_caller:/home/hvakil/ros2_humble/install/rqt_reconfigure:/home/hvakil/ros2_humble/install/rqt_py_console:/home/hvakil/ros2_humble/install/rqt_publisher:/home/hvakil/ros2_humble/install/rqt_plot:/home/hvakil/ros2_humble/install/rqt_action:/home/hvakil/ros2_humble/install/rqt_msg:/home/hvakil/ros2_humble/install/rqt_console:/home/hvakil/ros2_humble/install/rqt:/home/hvakil/ros2_humble/install/rqt_graph:/home/hvakil/ros2_humble/install/rqt_gui_py:/home/hvakil/ros2_humble/install/rqt_gui:/home/hvakil/ros2_humble/install/ros2trace:/home/hvakil/ros2_humble/install/ros2topic:/home/hvakil/ros2_humble/install/ros2test:/home/hvakil/ros2_humble/install/ros2component:/home/hvakil/ros2_humble/install/ros2param:/home/hvakil/ros2_humble/install/ros2lifecycle:/home/hvakil/ros2_humble/install/ros2service:/home/hvakil/ros2_humble/install/ros2run:/home/hvakil/ros2_humble/install/ros2launch:/home/hvakil/ros2_humble/install/ros2pkg:/home/hvakil/ros2_humble/install/ros2node:/home/hvakil/ros2_humble/install/ros2multicast:/home/hvakil/ros2_humble/install/ros2interface:/home/hvakil/ros2_humble/install/ros2doctor:/home/hvakil/ros2_humble/install/ros2action:/home/hvakil/ros2_humble/install/ros2cli:/home/hvakil/ros2_humble/install/quality_of_service_demo_py:/home/hvakil/ros2_humble/install/lifecycle_py:/home/hvakil/ros2_humble/install/launch_testing_ros:/home/hvakil/ros2_humble/install/launch_ros:/home/hvakil/ros2_humble/install/examples_rclpy_pointcloud_publisher:/home/hvakil/ros2_humble/install/examples_rclpy_minimal_subscriber:/home/hvakil/ros2_humble/install/examples_rclpy_minimal_service:/home/hvakil/ros2_humble/install/examples_rclpy_minimal_publisher:/home/hvakil/ros2_humble/install/examples_rclpy_minimal_client:/home/hvakil/ros2_humble/install/examples_rclpy_minimal_action_server:/home/hvakil/ros2_humble/install/examples_rclpy_minimal_action_client:/home/hvakil/ros2_humble/install/examples_rclpy_guard_conditions:/home/hvakil/ros2_humble/install/examples_rclpy_executors:/home/hvakil/ros2_humble/install/demo_nodes_py:/home/hvakil/ros2_humble/install/action_tutorials_py:/home/hvakil/ros2_humble/install/ament_uncrustify:/home/hvakil/ros2_humble/install/tracetools_trace:/home/hvakil/ros2_humble/install/tracetools_read:/home/hvakil/ros2_humble/install/test_tracetools_launch:/home/hvakil/ros2_humble/install/test_launch_ros:/home/hvakil/ros2_humble/install/sensor_msgs_py:/home/hvakil/ros2_humble/install/rpyutils:/home/hvakil/ros2_humble/install/rosidl_runtime_py:/home/hvakil/ros2_humble/install/rosidl_cli:/home/hvakil/ros2_humble/install/launch_pytest:/home/hvakil/ros2_humble/install/launch_testing:/home/hvakil/ros2_humble/install/launch_yaml:/home/hvakil/ros2_humble/install/launch_xml:/home/hvakil/ros2_humble/install/launch:/home/hvakil/ros2_humble/install/osrf_pycommon:/home/hvakil/ros2_humble/install/launch_testing_examples:/home/hvakil/ros2_humble/install/domain_coordinator:/home/hvakil/ros2_humble/install/ament_xmllint:/home/hvakil/ros2_humble/install/ament_pyflakes:/home/hvakil/ros2_humble/install/ament_pycodestyle:/home/hvakil/ros2_humble/install/ament_pep257:/home/hvakil/ros2_humble/install/ament_pclint:/home/hvakil/ros2_humble/install/ament_package:/home/hvakil/ros2_humble/install/ament_mypy:/home/hvakil/ros2_humble/install/ament_lint_cmake:/home/hvakil/ros2_humble/install/ament_flake8:/home/hvakil/ros2_humble/install/ament_copyright:/home/hvakil/ros2_humble/install/ament_lint:/home/hvakil/ros2_humble/install/ament_index_python:/home/hvakil/ros2_humble/install/ament_cpplint:/home/hvakil/ros2_humble/install/ament_cppcheck:/home/hvakil/ros2_humble/install/ament_clang_tidy:/home/hvakil/ros2_humble/install/ament_clang_format /usr/bin/cmake --install /home/hvakil/ros2_ws/src/build/direction_interfaces
+[4.527s] Level 1:colcon.colcon_core.environment:checking '/home/hvakil/ros2_ws/src/install/direction_interfaces' for CMake config files
+[4.528s] Level 1:colcon.colcon_core.shell:create_environment_hook('direction_interfaces', 'cmake_prefix_path')
+[4.535s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hvakil/ros2_ws/src/install/direction_interfaces/share/direction_interfaces/hook/cmake_prefix_path.ps1'
+[4.536s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hvakil/ros2_ws/src/install/direction_interfaces/share/direction_interfaces/hook/cmake_prefix_path.dsv'
+[4.537s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hvakil/ros2_ws/src/install/direction_interfaces/share/direction_interfaces/hook/cmake_prefix_path.sh'
+[4.538s] Level 1:colcon.colcon_core.environment:checking '/home/hvakil/ros2_ws/src/install/direction_interfaces/lib'
+[4.539s] Level 1:colcon.colcon_core.shell:create_environment_hook('direction_interfaces', 'ld_library_path_lib')
+[4.546s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hvakil/ros2_ws/src/install/direction_interfaces/share/direction_interfaces/hook/ld_library_path_lib.ps1'
+[4.547s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hvakil/ros2_ws/src/install/direction_interfaces/share/direction_interfaces/hook/ld_library_path_lib.dsv'
+[4.548s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hvakil/ros2_ws/src/install/direction_interfaces/share/direction_interfaces/hook/ld_library_path_lib.sh'
+[4.549s] Level 1:colcon.colcon_core.environment:checking '/home/hvakil/ros2_ws/src/install/direction_interfaces/bin'
+[4.549s] Level 1:colcon.colcon_core.environment:checking '/home/hvakil/ros2_ws/src/install/direction_interfaces/lib/pkgconfig/direction_interfaces.pc'
+[4.550s] Level 1:colcon.colcon_core.environment:checking '/home/hvakil/ros2_ws/src/install/direction_interfaces/lib/python3.10/site-packages'
+[4.551s] Level 1:colcon.colcon_core.environment:checking '/home/hvakil/ros2_ws/src/install/direction_interfaces/bin'
+[4.555s] INFO:colcon.colcon_core.shell:Creating package script '/home/hvakil/ros2_ws/src/install/direction_interfaces/share/direction_interfaces/package.ps1'
+[4.556s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hvakil/ros2_ws/src/install/direction_interfaces/share/direction_interfaces/package.dsv'
+[4.557s] INFO:colcon.colcon_core.shell:Creating package script '/home/hvakil/ros2_ws/src/install/direction_interfaces/share/direction_interfaces/package.sh'
+[4.558s] INFO:colcon.colcon_core.shell:Creating package script '/home/hvakil/ros2_ws/src/install/direction_interfaces/share/direction_interfaces/package.bash'
+[4.559s] INFO:colcon.colcon_core.shell:Creating package script '/home/hvakil/ros2_ws/src/install/direction_interfaces/share/direction_interfaces/package.zsh'
+[4.559s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hvakil/ros2_ws/src/install/direction_interfaces/share/colcon-core/packages/direction_interfaces)
+[4.943s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gps_interfaces)
+[4.954s] Level 1:colcon.colcon_core.environment:checking '/home/hvakil/ros2_ws/src/install/gps_interfaces' for CMake module files
+[4.955s] Level 1:colcon.colcon_core.environment:checking '/home/hvakil/ros2_ws/src/install/gps_interfaces' for CMake config files
+[4.956s] Level 1:colcon.colcon_core.shell:create_environment_hook('gps_interfaces', 'cmake_prefix_path')
+[4.964s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hvakil/ros2_ws/src/install/gps_interfaces/share/gps_interfaces/hook/cmake_prefix_path.ps1'
+[4.965s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hvakil/ros2_ws/src/install/gps_interfaces/share/gps_interfaces/hook/cmake_prefix_path.dsv'
+[4.965s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hvakil/ros2_ws/src/install/gps_interfaces/share/gps_interfaces/hook/cmake_prefix_path.sh'
+[4.967s] Level 1:colcon.colcon_core.environment:checking '/home/hvakil/ros2_ws/src/install/gps_interfaces/lib'
+[4.967s] Level 1:colcon.colcon_core.shell:create_environment_hook('gps_interfaces', 'ld_library_path_lib')
+[4.975s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hvakil/ros2_ws/src/install/gps_interfaces/share/gps_interfaces/hook/ld_library_path_lib.ps1'
+[4.976s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hvakil/ros2_ws/src/install/gps_interfaces/share/gps_interfaces/hook/ld_library_path_lib.dsv'
+[4.976s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hvakil/ros2_ws/src/install/gps_interfaces/share/gps_interfaces/hook/ld_library_path_lib.sh'
+[4.977s] Level 1:colcon.colcon_core.environment:checking '/home/hvakil/ros2_ws/src/install/gps_interfaces/bin'
+[4.977s] Level 1:colcon.colcon_core.environment:checking '/home/hvakil/ros2_ws/src/install/gps_interfaces/lib/pkgconfig/gps_interfaces.pc'
+[4.978s] Level 1:colcon.colcon_core.environment:checking '/home/hvakil/ros2_ws/src/install/gps_interfaces/lib/python3.10/site-packages'
+[4.979s] Level 1:colcon.colcon_core.environment:checking '/home/hvakil/ros2_ws/src/install/gps_interfaces/bin'
+[4.987s] INFO:colcon.colcon_core.shell:Creating package script '/home/hvakil/ros2_ws/src/install/gps_interfaces/share/gps_interfaces/package.ps1'
+[4.989s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hvakil/ros2_ws/src/install/gps_interfaces/share/gps_interfaces/package.dsv'
+[4.990s] INFO:colcon.colcon_core.shell:Creating package script '/home/hvakil/ros2_ws/src/install/gps_interfaces/share/gps_interfaces/package.sh'
+[4.991s] INFO:colcon.colcon_core.shell:Creating package script '/home/hvakil/ros2_ws/src/install/gps_interfaces/share/gps_interfaces/package.bash'
+[4.992s] INFO:colcon.colcon_core.shell:Creating package script '/home/hvakil/ros2_ws/src/install/gps_interfaces/share/gps_interfaces/package.zsh'
+[4.993s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hvakil/ros2_ws/src/install/gps_interfaces/share/colcon-core/packages/gps_interfaces)
+[5.003s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(direction_interfaces)
+[5.016s] Level 1:colcon.colcon_core.environment:checking '/home/hvakil/ros2_ws/src/install/direction_interfaces' for CMake module files
+[5.018s] Level 1:colcon.colcon_core.environment:checking '/home/hvakil/ros2_ws/src/install/direction_interfaces' for CMake config files
+[5.019s] Level 1:colcon.colcon_core.shell:create_environment_hook('direction_interfaces', 'cmake_prefix_path')
+[5.027s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hvakil/ros2_ws/src/install/direction_interfaces/share/direction_interfaces/hook/cmake_prefix_path.ps1'
+[5.029s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hvakil/ros2_ws/src/install/direction_interfaces/share/direction_interfaces/hook/cmake_prefix_path.dsv'
+[5.029s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hvakil/ros2_ws/src/install/direction_interfaces/share/direction_interfaces/hook/cmake_prefix_path.sh'
+[5.030s] Level 1:colcon.colcon_core.environment:checking '/home/hvakil/ros2_ws/src/install/direction_interfaces/lib'
+[5.031s] Level 1:colcon.colcon_core.shell:create_environment_hook('direction_interfaces', 'ld_library_path_lib')
+[5.039s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hvakil/ros2_ws/src/install/direction_interfaces/share/direction_interfaces/hook/ld_library_path_lib.ps1'
+[5.041s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hvakil/ros2_ws/src/install/direction_interfaces/share/direction_interfaces/hook/ld_library_path_lib.dsv'
+[5.042s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hvakil/ros2_ws/src/install/direction_interfaces/share/direction_interfaces/hook/ld_library_path_lib.sh'
+[5.043s] Level 1:colcon.colcon_core.environment:checking '/home/hvakil/ros2_ws/src/install/direction_interfaces/bin'
+[5.043s] Level 1:colcon.colcon_core.environment:checking '/home/hvakil/ros2_ws/src/install/direction_interfaces/lib/pkgconfig/direction_interfaces.pc'
+[5.043s] Level 1:colcon.colcon_core.environment:checking '/home/hvakil/ros2_ws/src/install/direction_interfaces/lib/python3.10/site-packages'
+[5.044s] Level 1:colcon.colcon_core.environment:checking '/home/hvakil/ros2_ws/src/install/direction_interfaces/bin'
+[5.052s] INFO:colcon.colcon_core.shell:Creating package script '/home/hvakil/ros2_ws/src/install/direction_interfaces/share/direction_interfaces/package.ps1'
+[5.054s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hvakil/ros2_ws/src/install/direction_interfaces/share/direction_interfaces/package.dsv'
+[5.056s] INFO:colcon.colcon_core.shell:Creating package script '/home/hvakil/ros2_ws/src/install/direction_interfaces/share/direction_interfaces/package.sh'
+[5.057s] INFO:colcon.colcon_core.shell:Creating package script '/home/hvakil/ros2_ws/src/install/direction_interfaces/share/direction_interfaces/package.bash'
+[5.058s] INFO:colcon.colcon_core.shell:Creating package script '/home/hvakil/ros2_ws/src/install/direction_interfaces/share/direction_interfaces/package.zsh'
+[5.059s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hvakil/ros2_ws/src/install/direction_interfaces/share/colcon-core/packages/direction_interfaces)
+[5.067s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hvakil/ros2_ws/src/build/arduino_ros': PYTHONPATH=/home/hvakil/ros2_ws/src/build/arduino_ros/prefix_override:/home/hvakil/ros2_ws/src/install/arduino_ros/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/hvakil/ros2_ws/src/build/arduino_ros/build --no-deps install_data
+[5.079s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hvakil/ros2_ws/src/build/vel_calculator': PYTHONPATH=/home/hvakil/ros2_ws/src/build/vel_calculator/prefix_override:/home/hvakil/ros2_ws/src/install/vel_calculator/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/hvakil/ros2_ws/src/build/vel_calculator/build --no-deps install_data
+[5.098s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hvakil/ros2_ws/src/build/arkit_data_streamer': PYTHONPATH=/home/hvakil/ros2_ws/src/build/arkit_data_streamer/prefix_override:/home/hvakil/ros2_ws/src/install/arkit_data_streamer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/hvakil/ros2_ws/src/build/arkit_data_streamer/build --no-deps install_data
+[5.108s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hvakil/ros2_ws/src/build/trail_finding': PYTHONPATH=/home/hvakil/ros2_ws/src/build/trail_finding/prefix_override:/home/hvakil/ros2_ws/src/install/trail_finding/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/hvakil/ros2_ws/src/build/trail_finding/build --no-deps install_data
+[5.167s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hvakil/ros2_ws/src/build/write_to_tractor': PYTHONPATH=/home/hvakil/ros2_ws/src/build/write_to_tractor/prefix_override:/home/hvakil/ros2_ws/src/install/write_to_tractor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/hvakil/ros2_ws/src/build/write_to_tractor/build --no-deps install_data
+[6.374s] Level 1:colcon.colcon_core.shell:create_environment_hook('trail_finding', 'pythonpath_develop')
+[6.380s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hvakil/ros2_ws/src/build/trail_finding/share/trail_finding/hook/pythonpath_develop.ps1'
+[6.381s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hvakil/ros2_ws/src/build/trail_finding' returned '0': PYTHONPATH=/home/hvakil/ros2_ws/src/build/trail_finding/prefix_override:/home/hvakil/ros2_ws/src/install/trail_finding/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/hvakil/ros2_ws/src/build/trail_finding/build --no-deps install_data
+[6.382s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hvakil/ros2_ws/src/build/trail_finding/share/trail_finding/hook/pythonpath_develop.dsv'
+[6.382s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hvakil/ros2_ws/src/build/trail_finding/share/trail_finding/hook/pythonpath_develop.sh'
+[6.388s] Level 1:colcon.colcon_core.environment:checking '/home/hvakil/ros2_ws/src/install/trail_finding' for CMake module files
+[6.389s] Level 1:colcon.colcon_core.environment:checking '/home/hvakil/ros2_ws/src/install/trail_finding' for CMake config files
+[6.390s] Level 1:colcon.colcon_core.environment:checking '/home/hvakil/ros2_ws/src/install/trail_finding/lib'
+[6.390s] Level 1:colcon.colcon_core.environment:checking '/home/hvakil/ros2_ws/src/install/trail_finding/bin'
+[6.390s] Level 1:colcon.colcon_core.environment:checking '/home/hvakil/ros2_ws/src/install/trail_finding/lib/pkgconfig/trail_finding.pc'
+[6.390s] Level 1:colcon.colcon_core.environment:checking '/home/hvakil/ros2_ws/src/install/trail_finding/lib/python3.10/site-packages'
+[6.391s] Level 1:colcon.colcon_core.shell:create_environment_hook('trail_finding', 'pythonpath')
+[6.394s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hvakil/ros2_ws/src/install/trail_finding/share/trail_finding/hook/pythonpath.ps1'
+[6.394s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hvakil/ros2_ws/src/install/trail_finding/share/trail_finding/hook/pythonpath.dsv'
+[6.395s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hvakil/ros2_ws/src/install/trail_finding/share/trail_finding/hook/pythonpath.sh'
+[6.395s] Level 1:colcon.colcon_core.environment:checking '/home/hvakil/ros2_ws/src/install/trail_finding/bin'
+[6.395s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(trail_finding)
+[6.398s] INFO:colcon.colcon_core.shell:Creating package script '/home/hvakil/ros2_ws/src/install/trail_finding/share/trail_finding/package.ps1'
+[6.399s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hvakil/ros2_ws/src/install/trail_finding/share/trail_finding/package.dsv'
+[6.399s] INFO:colcon.colcon_core.shell:Creating package script '/home/hvakil/ros2_ws/src/install/trail_finding/share/trail_finding/package.sh'
+[6.400s] INFO:colcon.colcon_core.shell:Creating package script '/home/hvakil/ros2_ws/src/install/trail_finding/share/trail_finding/package.bash'
+[6.400s] INFO:colcon.colcon_core.shell:Creating package script '/home/hvakil/ros2_ws/src/install/trail_finding/share/trail_finding/package.zsh'
+[6.400s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hvakil/ros2_ws/src/install/trail_finding/share/colcon-core/packages/trail_finding)
+[6.402s] Level 1:colcon.colcon_core.shell:create_environment_hook('arduino_ros', 'pythonpath_develop')
+[6.404s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hvakil/ros2_ws/src/build/arduino_ros/share/arduino_ros/hook/pythonpath_develop.ps1'
+[6.405s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hvakil/ros2_ws/src/build/arduino_ros' returned '0': PYTHONPATH=/home/hvakil/ros2_ws/src/build/arduino_ros/prefix_override:/home/hvakil/ros2_ws/src/install/arduino_ros/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/hvakil/ros2_ws/src/build/arduino_ros/build --no-deps install_data
+[6.406s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hvakil/ros2_ws/src/build/arduino_ros/share/arduino_ros/hook/pythonpath_develop.dsv'
+[6.406s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hvakil/ros2_ws/src/build/arduino_ros/share/arduino_ros/hook/pythonpath_develop.sh'
+[6.410s] Level 1:colcon.colcon_core.environment:checking '/home/hvakil/ros2_ws/src/install/arduino_ros' for CMake module files
+[6.411s] Level 1:colcon.colcon_core.environment:checking '/home/hvakil/ros2_ws/src/install/arduino_ros' for CMake config files
+[6.411s] Level 1:colcon.colcon_core.environment:checking '/home/hvakil/ros2_ws/src/install/arduino_ros/lib'
+[6.411s] Level 1:colcon.colcon_core.environment:checking '/home/hvakil/ros2_ws/src/install/arduino_ros/bin'
+[6.411s] Level 1:colcon.colcon_core.environment:checking '/home/hvakil/ros2_ws/src/install/arduino_ros/lib/pkgconfig/arduino_ros.pc'
+[6.412s] Level 1:colcon.colcon_core.environment:checking '/home/hvakil/ros2_ws/src/install/arduino_ros/lib/python3.10/site-packages'
+[6.412s] Level 1:colcon.colcon_core.shell:create_environment_hook('arduino_ros', 'pythonpath')
+[6.414s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hvakil/ros2_ws/src/install/arduino_ros/share/arduino_ros/hook/pythonpath.ps1'
+[6.415s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hvakil/ros2_ws/src/install/arduino_ros/share/arduino_ros/hook/pythonpath.dsv'
+[6.415s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hvakil/ros2_ws/src/install/arduino_ros/share/arduino_ros/hook/pythonpath.sh'
+[6.416s] Level 1:colcon.colcon_core.environment:checking '/home/hvakil/ros2_ws/src/install/arduino_ros/bin'
+[6.416s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(arduino_ros)
+[6.419s] INFO:colcon.colcon_core.shell:Creating package script '/home/hvakil/ros2_ws/src/install/arduino_ros/share/arduino_ros/package.ps1'
+[6.419s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hvakil/ros2_ws/src/install/arduino_ros/share/arduino_ros/package.dsv'
+[6.420s] INFO:colcon.colcon_core.shell:Creating package script '/home/hvakil/ros2_ws/src/install/arduino_ros/share/arduino_ros/package.sh'
+[6.421s] INFO:colcon.colcon_core.shell:Creating package script '/home/hvakil/ros2_ws/src/install/arduino_ros/share/arduino_ros/package.bash'
+[6.421s] INFO:colcon.colcon_core.shell:Creating package script '/home/hvakil/ros2_ws/src/install/arduino_ros/share/arduino_ros/package.zsh'
+[6.421s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hvakil/ros2_ws/src/install/arduino_ros/share/colcon-core/packages/arduino_ros)
+[6.422s] Level 1:colcon.colcon_core.shell:create_environment_hook('vel_calculator', 'pythonpath_develop')
+[6.424s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hvakil/ros2_ws/src/build/vel_calculator/share/vel_calculator/hook/pythonpath_develop.ps1'
+[6.425s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hvakil/ros2_ws/src/build/vel_calculator/share/vel_calculator/hook/pythonpath_develop.dsv'
+[6.426s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hvakil/ros2_ws/src/build/vel_calculator/share/vel_calculator/hook/pythonpath_develop.sh'
+[6.426s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hvakil/ros2_ws/src/build/vel_calculator' returned '0': PYTHONPATH=/home/hvakil/ros2_ws/src/build/vel_calculator/prefix_override:/home/hvakil/ros2_ws/src/install/vel_calculator/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/hvakil/ros2_ws/src/build/vel_calculator/build --no-deps install_data
+[6.430s] Level 1:colcon.colcon_core.environment:checking '/home/hvakil/ros2_ws/src/install/vel_calculator' for CMake module files
+[6.431s] Level 1:colcon.colcon_core.environment:checking '/home/hvakil/ros2_ws/src/install/vel_calculator' for CMake config files
+[6.431s] Level 1:colcon.colcon_core.environment:checking '/home/hvakil/ros2_ws/src/install/vel_calculator/lib'
+[6.431s] Level 1:colcon.colcon_core.environment:checking '/home/hvakil/ros2_ws/src/install/vel_calculator/bin'
+[6.431s] Level 1:colcon.colcon_core.environment:checking '/home/hvakil/ros2_ws/src/install/vel_calculator/lib/pkgconfig/vel_calculator.pc'
+[6.431s] Level 1:colcon.colcon_core.environment:checking '/home/hvakil/ros2_ws/src/install/vel_calculator/lib/python3.10/site-packages'
+[6.431s] Level 1:colcon.colcon_core.shell:create_environment_hook('vel_calculator', 'pythonpath')
+[6.434s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hvakil/ros2_ws/src/install/vel_calculator/share/vel_calculator/hook/pythonpath.ps1'
+[6.435s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hvakil/ros2_ws/src/install/vel_calculator/share/vel_calculator/hook/pythonpath.dsv'
+[6.435s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hvakil/ros2_ws/src/install/vel_calculator/share/vel_calculator/hook/pythonpath.sh'
+[6.436s] Level 1:colcon.colcon_core.environment:checking '/home/hvakil/ros2_ws/src/install/vel_calculator/bin'
+[6.436s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vel_calculator)
+[6.439s] INFO:colcon.colcon_core.shell:Creating package script '/home/hvakil/ros2_ws/src/install/vel_calculator/share/vel_calculator/package.ps1'
+[6.439s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hvakil/ros2_ws/src/install/vel_calculator/share/vel_calculator/package.dsv'
+[6.440s] INFO:colcon.colcon_core.shell:Creating package script '/home/hvakil/ros2_ws/src/install/vel_calculator/share/vel_calculator/package.sh'
+[6.440s] INFO:colcon.colcon_core.shell:Creating package script '/home/hvakil/ros2_ws/src/install/vel_calculator/share/vel_calculator/package.bash'
+[6.440s] INFO:colcon.colcon_core.shell:Creating package script '/home/hvakil/ros2_ws/src/install/vel_calculator/share/vel_calculator/package.zsh'
+[6.441s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hvakil/ros2_ws/src/install/vel_calculator/share/colcon-core/packages/vel_calculator)
+[6.441s] Level 1:colcon.colcon_core.shell:create_environment_hook('arkit_data_streamer', 'pythonpath_develop')
+[6.443s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hvakil/ros2_ws/src/build/arkit_data_streamer/share/arkit_data_streamer/hook/pythonpath_develop.ps1'
+[6.444s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hvakil/ros2_ws/src/build/arkit_data_streamer/share/arkit_data_streamer/hook/pythonpath_develop.dsv'
+[6.445s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hvakil/ros2_ws/src/build/arkit_data_streamer' returned '0': PYTHONPATH=/home/hvakil/ros2_ws/src/build/arkit_data_streamer/prefix_override:/home/hvakil/ros2_ws/src/install/arkit_data_streamer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/hvakil/ros2_ws/src/build/arkit_data_streamer/build --no-deps install_data
+[6.445s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hvakil/ros2_ws/src/build/arkit_data_streamer/share/arkit_data_streamer/hook/pythonpath_develop.sh'
+[6.449s] Level 1:colcon.colcon_core.environment:checking '/home/hvakil/ros2_ws/src/install/arkit_data_streamer' for CMake module files
+[6.450s] Level 1:colcon.colcon_core.environment:checking '/home/hvakil/ros2_ws/src/install/arkit_data_streamer' for CMake config files
+[6.450s] Level 1:colcon.colcon_core.environment:checking '/home/hvakil/ros2_ws/src/install/arkit_data_streamer/lib'
+[6.450s] Level 1:colcon.colcon_core.environment:checking '/home/hvakil/ros2_ws/src/install/arkit_data_streamer/bin'
+[6.451s] Level 1:colcon.colcon_core.environment:checking '/home/hvakil/ros2_ws/src/install/arkit_data_streamer/lib/pkgconfig/arkit_data_streamer.pc'
+[6.451s] Level 1:colcon.colcon_core.environment:checking '/home/hvakil/ros2_ws/src/install/arkit_data_streamer/lib/python3.10/site-packages'
+[6.451s] Level 1:colcon.colcon_core.shell:create_environment_hook('arkit_data_streamer', 'pythonpath')
+[6.453s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hvakil/ros2_ws/src/install/arkit_data_streamer/share/arkit_data_streamer/hook/pythonpath.ps1'
+[6.454s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hvakil/ros2_ws/src/install/arkit_data_streamer/share/arkit_data_streamer/hook/pythonpath.dsv'
+[6.454s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hvakil/ros2_ws/src/install/arkit_data_streamer/share/arkit_data_streamer/hook/pythonpath.sh'
+[6.454s] Level 1:colcon.colcon_core.environment:checking '/home/hvakil/ros2_ws/src/install/arkit_data_streamer/bin'
+[6.455s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(arkit_data_streamer)
+[6.457s] INFO:colcon.colcon_core.shell:Creating package script '/home/hvakil/ros2_ws/src/install/arkit_data_streamer/share/arkit_data_streamer/package.ps1'
+[6.458s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hvakil/ros2_ws/src/install/arkit_data_streamer/share/arkit_data_streamer/package.dsv'
+[6.458s] INFO:colcon.colcon_core.shell:Creating package script '/home/hvakil/ros2_ws/src/install/arkit_data_streamer/share/arkit_data_streamer/package.sh'
+[6.458s] INFO:colcon.colcon_core.shell:Creating package script '/home/hvakil/ros2_ws/src/install/arkit_data_streamer/share/arkit_data_streamer/package.bash'
+[6.459s] INFO:colcon.colcon_core.shell:Creating package script '/home/hvakil/ros2_ws/src/install/arkit_data_streamer/share/arkit_data_streamer/package.zsh'
+[6.459s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hvakil/ros2_ws/src/install/arkit_data_streamer/share/colcon-core/packages/arkit_data_streamer)
+[6.460s] Level 1:colcon.colcon_core.shell:create_environment_hook('write_to_tractor', 'pythonpath_develop')
+[6.462s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hvakil/ros2_ws/src/build/write_to_tractor/share/write_to_tractor/hook/pythonpath_develop.ps1'
+[6.462s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hvakil/ros2_ws/src/build/write_to_tractor/share/write_to_tractor/hook/pythonpath_develop.dsv'
+[6.463s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hvakil/ros2_ws/src/build/write_to_tractor' returned '0': PYTHONPATH=/home/hvakil/ros2_ws/src/build/write_to_tractor/prefix_override:/home/hvakil/ros2_ws/src/install/write_to_tractor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/hvakil/ros2_ws/src/build/write_to_tractor/build --no-deps install_data
+[6.463s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hvakil/ros2_ws/src/build/write_to_tractor/share/write_to_tractor/hook/pythonpath_develop.sh'
+[6.467s] Level 1:colcon.colcon_core.environment:checking '/home/hvakil/ros2_ws/src/install/write_to_tractor' for CMake module files
+[6.467s] Level 1:colcon.colcon_core.environment:checking '/home/hvakil/ros2_ws/src/install/write_to_tractor' for CMake config files
+[6.467s] Level 1:colcon.colcon_core.environment:checking '/home/hvakil/ros2_ws/src/install/write_to_tractor/lib'
+[6.468s] Level 1:colcon.colcon_core.environment:checking '/home/hvakil/ros2_ws/src/install/write_to_tractor/bin'
+[6.468s] Level 1:colcon.colcon_core.environment:checking '/home/hvakil/ros2_ws/src/install/write_to_tractor/lib/pkgconfig/write_to_tractor.pc'
+[6.468s] Level 1:colcon.colcon_core.environment:checking '/home/hvakil/ros2_ws/src/install/write_to_tractor/lib/python3.10/site-packages'
+[6.468s] Level 1:colcon.colcon_core.shell:create_environment_hook('write_to_tractor', 'pythonpath')
+[6.470s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hvakil/ros2_ws/src/install/write_to_tractor/share/write_to_tractor/hook/pythonpath.ps1'
+[6.470s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hvakil/ros2_ws/src/install/write_to_tractor/share/write_to_tractor/hook/pythonpath.dsv'
+[6.471s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hvakil/ros2_ws/src/install/write_to_tractor/share/write_to_tractor/hook/pythonpath.sh'
+[6.471s] Level 1:colcon.colcon_core.environment:checking '/home/hvakil/ros2_ws/src/install/write_to_tractor/bin'
+[6.471s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(write_to_tractor)
+[6.473s] INFO:colcon.colcon_core.shell:Creating package script '/home/hvakil/ros2_ws/src/install/write_to_tractor/share/write_to_tractor/package.ps1'
+[6.474s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hvakil/ros2_ws/src/install/write_to_tractor/share/write_to_tractor/package.dsv'
+[6.474s] INFO:colcon.colcon_core.shell:Creating package script '/home/hvakil/ros2_ws/src/install/write_to_tractor/share/write_to_tractor/package.sh'
+[6.475s] INFO:colcon.colcon_core.shell:Creating package script '/home/hvakil/ros2_ws/src/install/write_to_tractor/share/write_to_tractor/package.bash'
+[6.475s] INFO:colcon.colcon_core.shell:Creating package script '/home/hvakil/ros2_ws/src/install/write_to_tractor/share/write_to_tractor/package.zsh'
+[6.475s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hvakil/ros2_ws/src/install/write_to_tractor/share/colcon-core/packages/write_to_tractor)
+[6.475s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[6.476s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[6.476s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[6.476s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[6.489s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[6.489s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[6.489s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[6.499s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[6.502s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/hvakil/ros2_ws/src/install/local_setup.ps1'
+[6.503s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/hvakil/ros2_ws/src/install/_local_setup_util_ps1.py'
+[6.504s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/hvakil/ros2_ws/src/install/setup.ps1'
+[6.516s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/hvakil/ros2_ws/src/install/local_setup.sh'
+[6.516s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/hvakil/ros2_ws/src/install/_local_setup_util_sh.py'
+[6.517s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/hvakil/ros2_ws/src/install/setup.sh'
+[6.528s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/hvakil/ros2_ws/src/install/local_setup.bash'
+[6.528s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/hvakil/ros2_ws/src/install/setup.bash'
+[6.539s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/hvakil/ros2_ws/src/install/local_setup.zsh'
+[6.540s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/hvakil/ros2_ws/src/install/setup.zsh'

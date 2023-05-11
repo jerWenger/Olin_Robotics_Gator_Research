@@ -1,0 +1,22 @@
+running develop
+running egg_info
+creating look_for_person.egg-info
+writing look_for_person.egg-info/PKG-INFO
+writing dependency_links to look_for_person.egg-info/dependency_links.txt
+writing entry points to look_for_person.egg-info/entry_points.txt
+writing requirements to look_for_person.egg-info/requires.txt
+writing top-level names to look_for_person.egg-info/top_level.txt
+writing manifest file 'look_for_person.egg-info/SOURCES.txt'
+reading manifest file 'look_for_person.egg-info/SOURCES.txt'
+writing manifest file 'look_for_person.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/hvakil/ros2_ws/src/install/look_for_person/lib/python3.10/site-packages/look-for-person.egg-link (link to .)
+Installing parse_scan script to /home/hvakil/ros2_ws/src/install/look_for_person/lib/look_for_person
+
+Installed /home/hvakil/ros2_ws/src/build/look_for_person
+running install_data
+creating /home/hvakil/ros2_ws/src/install/look_for_person/share/ament_index
+creating /home/hvakil/ros2_ws/src/install/look_for_person/share/ament_index/resource_index
+creating /home/hvakil/ros2_ws/src/install/look_for_person/share/ament_index/resource_index/packages
+copying resource/look_for_person -> /home/hvakil/ros2_ws/src/install/look_for_person/share/ament_index/resource_index/packages
+copying package.xml -> /home/hvakil/ros2_ws/src/install/look_for_person/share/look_for_person

@@ -1,0 +1,13 @@
+package.xml
+setup.cfg
+setup.py
+resource/write_to_tractor
+write_to_tractor/__init__.py
+write_to_tractor/tractor_writer.py
+write_to_tractor.egg-info/PKG-INFO
+write_to_tractor.egg-info/SOURCES.txt
+write_to_tractor.egg-info/dependency_links.txt
+write_to_tractor.egg-info/entry_points.txt
+write_to_tractor.egg-info/requires.txt
+write_to_tractor.egg-info/top_level.txt
+write_to_tractor.egg-info/zip-safe
